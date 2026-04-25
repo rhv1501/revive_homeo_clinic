@@ -69,7 +69,7 @@ const HomeHero: React.FC = () => {
             <div className="relative aspect-[4/5] sm:aspect-square lg:aspect-[4/5] rounded-[3.5rem] overflow-hidden shadow-2xl border-4 border-white">
               <Image
                 src={clinicInterior}
-                alt="Revivee Premium Clinic Interior"
+                alt="Revive Premium Clinic Interior"
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 800px"
                 className="object-cover scale-105 group-hover:scale-100 transition-transform duration-1000"

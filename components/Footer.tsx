@@ -38,14 +38,14 @@ const Footer: React.FC = () => {
               <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center p-1 shadow-lg border border-sage-100">
                 <Image
                   src="/assets/logo_1.png"
-                  alt="Revivee Logo"
+                  alt="Revive Logo"
                   width={40}
                   height={40}
                   className="object-contain"
                 />
               </div>
               <span className="font-playfair font-bold text-2xl tracking-tight text-white">
-                REVIVEE
+                REVIVE
               </span>
             </Link>
             <p className="text-sage-200/90 text-sm leading-relaxed max-w-xs">
@@ -181,7 +181,7 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-sage-700 pt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 relative z-10">
           <p className="text-sage-600 text-xs font-medium uppercase tracking-widest text-center md:text-left">
-            © {currentYear} Revivee Homeo Clinic. Personalized homeopathic care
+            © {currentYear} Revive Homeo Clinic. Personalized homeopathic care
             in Chennai.
           </p>
           <div className="flex space-x-6 text-xs text-sage-600 font-medium">

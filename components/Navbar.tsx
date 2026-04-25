@@ -51,7 +51,7 @@ const Navbar: React.FC = () => {
             <div className="relative w-10 h-10 2k:w-12 2k:h-12 bg-white rounded-2xl shadow-sm border border-sage-100 flex items-center justify-center p-1 group-hover:scale-105 transition-transform duration-300">
               <Image
                 src="/assets/logo_1.png"
-                alt="Revivee Homeo Clinic Logo"
+                alt="Revive Homeo Clinic Logo"
                 width={40}
                 height={40}
                 className="object-contain"
@@ -59,7 +59,7 @@ const Navbar: React.FC = () => {
             </div>
             <div className="flex flex-col">
               <span className="font-playfair font-bold text-xl 2k:text-2xl text-sage-900 tracking-tight leading-none group-hover:text-sage-700 transition-colors">
-                REVIVEE
+                REVIVE
               </span>
               <span className="text-[10px] 2k:text-xs font-bold tracking-[0.2em] text-terracotta-600 leading-none mt-1 uppercase">
                 Homeo Clinic

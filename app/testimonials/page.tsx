@@ -12,7 +12,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Success Stories & Patient Testimonials | Healing Journeys",
   description:
-    "Read real success stories from patients who found lasting relief at Revivee Homeo Clinic. From psoriasis to chronic pain, discover how constitutional homeopathy changes lives.",
+    "Read real success stories from patients who found lasting relief at Revive Homeo Clinic. From psoriasis to chronic pain, discover how constitutional homeopathy changes lives.",
   keywords: generateKeywords(BASE_KEYWORDS, [
     ...PAGE_KEYWORDS.testimonials,
     "patient reviews homeopathy chennai",
@@ -35,7 +35,7 @@ const TestimonialsPage = () => {
             Results.
           </h1>
           <p className="section-lead max-w-3xl mx-auto">
-            Every patient at Revivee has a unique story. Explore the journeys of
+            Every patient at Revive has a unique story. Explore the journeys of
             those who chose a natural, constitutional path to wellness.
           </p>
 

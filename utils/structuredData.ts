@@ -10,7 +10,7 @@ interface PhysicianData {
 export const createMedicalOrganizationSchema = () => ({
   "@context": "https://schema.org",
   "@type": "MedicalOrganization",
-  name: "Revivee Homeo Clinic",
+  name: "Revive Homeo Clinic",
   description:
     "Expert homeopathic treatment for chronic diseases and natural healing",
   url: "https://www.revivehomeoclinic.com",
@@ -67,7 +67,7 @@ export const createPhysicianSchema = (doctor: PhysicianData) => ({
   medicalSpecialty: "Homeopathy",
   worksFor: {
     "@type": "MedicalOrganization",
-    name: "Revivee Homeo Clinic",
+    name: "Revive Homeo Clinic",
   },
   alumniOf: "Homeopathic Medical College",
   memberOf: "Indian Homeopathic Medical Association",
@@ -93,12 +93,12 @@ export const createWebPageSchema = (pageData: {
   url: pageData.url,
   isPartOf: {
     "@type": "WebSite",
-    name: "Revivee Homeo Clinic",
+    name: "Revive Homeo Clinic",
     url: "https://www.revivehomeoclinic.com",
   },
   about: {
     "@type": "MedicalOrganization",
-    name: "Revivee Homeo Clinic",
+    name: "Revive Homeo Clinic",
   },
   keywords: "homeopathy, natural healing, chronic diseases, holistic medicine",
 });
@@ -106,13 +106,13 @@ export const createWebPageSchema = (pageData: {
 export const createContactPageSchema = () => ({
   "@context": "https://schema.org",
   "@type": "ContactPage",
-  name: "Contact Us - Revivee Homeo Clinic",
+  name: "Contact Us - Revive Homeo Clinic",
   description:
     "Get in touch with our homeopathy clinic for consultations and appointments",
   url: "https://www.revivehomeoclinic.com/contact",
   mainEntity: {
     "@type": "MedicalOrganization",
-    name: "Revivee Homeo Clinic",
+    name: "Revive Homeo Clinic",
     telephone: "+91-9876543210",
     email: "info@revivehomeoclinic.com",
     address: {
@@ -129,7 +129,7 @@ export const createContactPageSchema = () => ({
 export const createAboutPageSchema = () => ({
   "@context": "https://schema.org",
   "@type": "AboutPage",
-  name: "About Us - Revivee Homeo Clinic",
+  name: "About Us - Revive Homeo Clinic",
   description:
     "Learn about our homeopathy clinic, our mission, and our expert team",
   url: "https://www.revivehomeoclinic.com/about",

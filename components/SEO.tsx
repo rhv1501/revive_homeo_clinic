@@ -24,7 +24,7 @@ const SEO: React.FC<SEOProps> = ({
   url = typeof window !== "undefined" ? window.location.href : "",
   image = "/images/og-image.jpg",
   type = "website",
-  siteName = "Revivee Homeo Clinic",
+  siteName = "Revive Homeo Clinic",
   locale = "en_US",
   twitterCard = "summary_large_image",
   noIndex = false,

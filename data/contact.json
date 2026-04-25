@@ -2,7 +2,7 @@
   "title": "Contact Us",
   "subtitle": "We’re Here to Listen, Treat, and Heal - Contact Our Clinic",
   "clinic_info": {
-    "name": "Revivee Homeo Clinic",
+    "name": "Revive Homeo Clinic",
     "tagline": "Restoring health, Reviving lives",
     "address": {
       "street1": "231 Pursaiwalkam High Road,",
@@ -19,15 +19,15 @@
       "WhatsApp": "+91 967 718 3197"
     },
     "email": {
-      "general": "info@reviveehomeoclinic.com",
+      "general": "info@revivehomeoclinic.com",
       "appointments": "dr.nritiya@gmail.com",
-      "support": "support@reviveehomeoclinic.com"
+      "support": "support@revivehomeoclinic.com"
     },
-    "website": "www.reviveehomeoclinic.com",
+    "website": "www.revivehomeoclinic.com",
     "social_media": {
       "facebook": "https://www.facebook.com/share/1QVmWoWHEv/",
-      "instagram": "https://www.instagram.com/revivee_homeo_clinic?igsh=ODRlOHhmbnhqaXlh",
-      "youtube": "https://youtube.com/@reviveehomeoclinic?si=vCZgeJ8UY-hfY0PQ"
+      "instagram": "https://www.instagram.com/revive_homeo_clinic?igsh=ODRlOHhmbnhqaXlh",
+      "youtube": "https://youtube.com/@revivehomeoclinic?si=vCZgeJ8UY-hfY0PQ"
     }
   },
   "hours": {

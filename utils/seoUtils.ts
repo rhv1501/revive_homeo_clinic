@@ -96,11 +96,11 @@ export const PAGE_KEYWORDS = {
 export const PAGE_DESCRIPTIONS = {
   home: "Expert homeopathic treatment for chronic diseases, natural healing, and holistic wellness. 15+ years of experience in Chennai. Book your consultation today.",
   about:
-    "Learn about Revivee Homeo Clinic, our mission for natural healing, and meet our expert team led by Dr. Nritiya Dave with 15+ years of experience.",
+    "Learn about Revive Homeo Clinic, our mission for natural healing, and meet our expert team led by Dr. Nritiya Dave with 15+ years of experience.",
   contact:
-    "Contact Revivee Homeo Clinic for expert homeopathic treatment. Schedule your consultation for chronic diseases, natural healing, and holistic wellness care.",
+    "Contact Revive Homeo Clinic for expert homeopathic treatment. Schedule your consultation for chronic diseases, natural healing, and holistic wellness care.",
   onlineConsultation:
-    "Book an online homeopathy consultation with Revivee Homeo Clinic. Get a personalized virtual assessment for chronic conditions, skin issues, hormonal concerns, and pediatric care.",
+    "Book an online homeopathy consultation with Revive Homeo Clinic. Get a personalized virtual assessment for chronic conditions, skin issues, hormonal concerns, and pediatric care.",
   treatments:
     "Comprehensive homeopathic treatments for chronic diseases, women's health, child care, and general wellness. Natural healing solutions for all ages.",
   testimonials:
@@ -119,7 +119,7 @@ export const SOCIAL_LINKS = {
 
 // Business information for structured data
 export const BUSINESS_INFO = {
-  name: "Revivee Homeo Clinic",
+  name: "Revive Homeo Clinic",
   description:
     "Expert homeopathic treatment for chronic diseases and natural healing",
   phone: "+91-9876543210",

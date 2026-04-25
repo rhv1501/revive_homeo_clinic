@@ -22,9 +22,9 @@ const FAQSection = dynamic(() => import("../components/home/FAQSection"), {
 });
 
 export const metadata: Metadata = {
-  title: "Revivee Homeo Clinic | Best Homeopathy Clinic in Chennai",
+  title: "Revive Homeo Clinic | Best Homeopathy Clinic in Chennai",
   description:
-    "Experience premium, holistic healing at Revivee Homeo Clinic, the best homeopathy clinic in Chennai. Specializing in Psoriasis, PCOS, Chronic Pain, and Pediatric care since 2007.",
+    "Experience premium, holistic healing at Revive Homeo Clinic, the best homeopathy clinic in Chennai. Specializing in Psoriasis, PCOS, Chronic Pain, and Pediatric care since 2007.",
   keywords: generateKeywords(BASE_KEYWORDS, [
     ...PAGE_KEYWORDS.home,
     "best homeopathy clinic chennai",
