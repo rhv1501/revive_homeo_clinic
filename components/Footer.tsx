@@ -2,7 +2,6 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import contactData from "../data/contact.json";
-import logo from "../assets/logo_1.png";
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -38,7 +37,7 @@ const Footer: React.FC = () => {
             <Link href="/" className="flex items-center space-x-3">
               <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center p-1 shadow-lg border border-sage-100">
                 <Image
-                  src={logo}
+                  src="/assets/logo_1.png"
                   alt="Revivee Logo"
                   width={40}
                   height={40}

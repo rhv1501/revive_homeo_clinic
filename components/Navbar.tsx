@@ -4,7 +4,6 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
-import logo from "../assets/logo_1.png";
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -51,7 +50,7 @@ const Navbar: React.FC = () => {
           <Link href="/" className="flex items-center space-x-3 group">
             <div className="relative w-10 h-10 2k:w-12 2k:h-12 bg-white rounded-2xl shadow-sm border border-sage-100 flex items-center justify-center p-1 group-hover:scale-105 transition-transform duration-300">
               <Image
-                src={logo}
+                src="/assets/logo_1.png"
                 alt="Revivee Homeo Clinic Logo"
                 width={40}
                 height={40}
