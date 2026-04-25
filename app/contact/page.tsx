@@ -54,11 +54,11 @@ const ContactPage = () => {
                  <div className="grid sm:grid-cols-2 gap-8">
                     <div className="p-8 rounded-[2.5rem] bg-sage-900 text-white shadow-xl space-y-4">
                        <p className="text-4xl font-bold font-playfair">17+</p>
-                       <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-sage-400">Years Clinical wisdom</p>
+                       <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-sage-600">Years Clinical wisdom</p>
                     </div>
                     <div className="p-8 rounded-[2.5rem] bg-sage-50 text-sage-900 border border-sage-100 shadow-sm space-y-4">
                        <p className="text-4xl font-bold font-playfair">5k+</p>
-                       <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-sage-500 font-bold">Successful Recoveries</p>
+                       <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-sage-600 font-bold">Successful Recoveries</p>
                     </div>
                  </div>
               </div>
@@ -83,7 +83,7 @@ const ContactPage = () => {
                     <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" /></svg>
                  </div>
                  <div className="space-y-0.5 text-center md:text-left">
-                    <p className="text-[10px] font-bold text-sage-400 uppercase tracking-widest">Call Clinic Directly</p>
+                    <p className="text-[10px] font-bold text-sage-600 uppercase tracking-widest">Call Clinic Directly</p>
                     <a href={`tel:${contactData.clinic_info.phone.primary}`} className="text-2xl font-bold text-sage-900 uppercase">
                        {contactData.clinic_info.phone.primary}
                     </a>
@@ -95,7 +95,7 @@ const ContactPage = () => {
                     <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /></svg>
                  </div>
                  <div className="space-y-0.5 text-center md:text-left">
-                    <p className="text-[10px] font-bold text-sage-400 uppercase tracking-widest">Our Practice Location</p>
+                    <p className="text-[10px] font-bold text-sage-600 uppercase tracking-widest">Our Practice Location</p>
                     <p className="text-xl font-bold text-sage-900 uppercase">
                        {contactData.clinic_info.address.city}, Tamil Nadu
                     </p>

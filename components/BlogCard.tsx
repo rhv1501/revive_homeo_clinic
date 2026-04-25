@@ -76,7 +76,7 @@ const BlogCard: React.FC<BlogCardProps> = ({
 
         <div className="px-8 py-6 border-t border-sage-50 flex flex-wrap gap-2">
           {tags.slice(0, 3).map((tag) => (
-            <span key={tag} className="text-[10px] font-bold text-sage-400 capitalize">#{tag}</span>
+            <span key={tag} className="text-[10px] font-bold text-sage-600 capitalize">#{tag}</span>
           ))}
           <div className="ml-auto flex items-center space-x-2 text-terracotta-600 text-xs font-bold font-inter tracking-widest uppercase">
              <span>Read More</span>
@@ -156,7 +156,7 @@ const BlogCard: React.FC<BlogCardProps> = ({
             <div className="p-6 md:p-10 bg-cream-50/50 border-t border-sage-50 flex justify-center">
               <button
                 onClick={() => setIsModalOpen(false)}
-                className="text-xs font-bold text-sage-400 uppercase tracking-[0.3em] hover:text-sage-900 transition-colors"
+                className="text-xs font-bold text-sage-600 uppercase tracking-[0.3em] hover:text-sage-900 transition-colors"
               >
                 Close Article
               </button>

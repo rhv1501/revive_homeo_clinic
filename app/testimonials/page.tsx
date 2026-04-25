@@ -68,7 +68,7 @@ const TestimonialsPage = () => {
                     <p className="text-2xl font-bold text-sage-900 leading-none">
                       4.9/5.0
                     </p>
-                    <p className="text-[10px] font-bold text-sage-400 uppercase tracking-widest mt-1">
+                    <p className="text-[10px] font-bold text-sage-600 uppercase tracking-widest mt-1">
                       Verified Google Rating
                     </p>
                   </div>
@@ -103,7 +103,7 @@ const TestimonialsPage = () => {
                     {[...Array(testimonial.rating)].map((_, i) => (
                       <svg
                         key={i}
-                        className="w-4 h-4 text-terracotta-500"
+                        className="w-4 h-4 text-terracotta-600"
                         fill="currentColor"
                         viewBox="0 0 20 20"
                       >
@@ -111,7 +111,7 @@ const TestimonialsPage = () => {
                       </svg>
                     ))}
                   </div>
-                  <span className="text-[10px] font-bold text-sage-400 uppercase tracking-widest">
+                  <span className="text-[10px] font-bold text-sage-600 uppercase tracking-widest">
                     Success Story
                   </span>
                 </div>
@@ -131,7 +131,7 @@ const TestimonialsPage = () => {
                     <p className="text-xs font-bold text-terracotta-600 mt-1">
                       {testimonial.condition}
                     </p>
-                    <p className="text-[10px] text-sage-400 uppercase tracking-widest mt-1">
+                    <p className="text-[10px] text-sage-600 uppercase tracking-widest mt-1">
                       {testimonial.location}
                     </p>
                   </div>
@@ -173,7 +173,7 @@ const TestimonialsPage = () => {
                 <p className="text-2xl font-playfair font-bold text-white">
                   {testimonialsData.quote.author}
                 </p>
-                <p className="text-xs font-bold text-sage-400 uppercase tracking-widest">
+                <p className="text-xs font-bold text-sage-600 uppercase tracking-widest">
                   {testimonialsData.quote.title}
                 </p>
               </div>
@@ -207,7 +207,7 @@ const TestimonialsPage = () => {
               {
                 label: "Conditions Treated",
                 val: testimonialsData.summary.conditions_treated + "+",
-                color: "text-terracotta-500",
+                color: "text-terracotta-600",
               },
             ].map((stat, i) => (
               <div key={i} className="text-center group">
@@ -216,7 +216,7 @@ const TestimonialsPage = () => {
                 >
                   {stat.val}
                 </div>
-                <div className="text-[10px] font-bold tracking-[0.2em] text-sage-400 uppercase">
+                <div className="text-[10px] font-bold tracking-[0.2em] text-sage-600 uppercase">
                   {stat.label}
                 </div>
               </div>

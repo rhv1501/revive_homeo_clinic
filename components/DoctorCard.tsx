@@ -47,10 +47,10 @@ const DoctorCard: React.FC<DoctorCardProps> = ({
                    </div>
                       
                    <div className="mt-10 text-center space-y-3">
-                      <h3 className="text-3xl font-playfair font-bold text-sage-900 leading-none">{name}</h3>
+                      <h2 className="text-3xl font-playfair font-bold text-sage-900 leading-none">{name}</h2>
                       <div className="flex items-center justify-center space-x-2">
                         <span className="w-8 h-[1px] bg-terracotta-400" />
-                        <span className="text-xs font-bold tracking-[0.2em] text-terracotta-500 uppercase">Chief Homeopath</span>
+                        <span className="text-xs font-bold tracking-[0.2em] text-terracotta-600 uppercase">Chief Homeopath</span>
                         <span className="w-8 h-[1px] bg-terracotta-400" />
                       </div>
                    </div>
@@ -61,10 +61,10 @@ const DoctorCard: React.FC<DoctorCardProps> = ({
               <div className="p-10 lg:p-20 bg-white/80">
                 <div className="space-y-12">
                   <div className="space-y-6">
-                    <h4 className="text-[10px] font-bold tracking-[0.4em] text-sage-400 uppercase">Professional Profile</h4>
-                    <h3 className="text-4xl font-playfair font-bold text-sage-900 leading-tight">
+                    <h3 className="text-[10px] font-bold tracking-[0.4em] text-sage-600 uppercase">Professional Profile</h3>
+                    <p className="text-4xl font-playfair font-bold text-sage-900 leading-tight">
                       {title}
-                    </h3>
+                    </p>
                     
                     <div className="flex flex-wrap gap-3">
                        {qualification.map((qual, i) => (
@@ -84,7 +84,7 @@ const DoctorCard: React.FC<DoctorCardProps> = ({
                   {/* Accreditations / Achievements */}
                   {achievements.length > 0 && (
                     <div className="space-y-6 pt-6 border-t border-sage-100">
-                       <h4 className="text-[10px] font-bold tracking-[0.4em] text-terracotta-500 uppercase">Specialized Expertise</h4>
+                       <h4 className="text-[10px] font-bold tracking-[0.4em] text-terracotta-600 uppercase">Specialized Expertise</h4>
                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                           {achievements.map((item, i) => (
                             <div key={i} className="flex items-center space-x-3 text-sm font-semibold text-sage-800">
@@ -98,7 +98,13 @@ const DoctorCard: React.FC<DoctorCardProps> = ({
 
                   {/* CTA or Secondary Action */}
                   <div className="pt-6">
-                     <Link href="/contact" className="btn-premium px-12 py-5 text-sm inline-block">Request a Personal Consultation</Link>
+                     <Link 
+                       href="/contact" 
+                       className="btn-premium px-12 py-5 text-sm inline-block"
+                       aria-label={`Request a personal consultation with ${name}`}
+                     >
+                       Request a Personal Consultation
+                     </Link>
                   </div>
                 </div>
               </div>

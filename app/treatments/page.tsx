@@ -61,7 +61,7 @@ const TreatmentsPage = () => {
       <section className="py-12 bg-white relative z-20 -mt-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="glass-card p-8 md:p-12 border-sage-100 shadow-xl rounded-[3rem]">
-            <p className="text-[10px] font-bold uppercase tracking-[0.3em] text-sage-400 mb-8 text-center">Quick Access Hub</p>
+            <p className="text-[10px] font-bold uppercase tracking-[0.3em] text-sage-600 mb-8 text-center">Quick Access Hub</p>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 sm:gap-4 font-bold">
               {servicesData.services.map((service, idx) => (
                 <a

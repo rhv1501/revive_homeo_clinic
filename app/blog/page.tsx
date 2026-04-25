@@ -47,7 +47,7 @@ const BlogPage = () => {
                 (cat, i) => (
                   <button
                     key={i}
-                    className={`px-6 py-2.5 rounded-xl text-xs font-bold tracking-widest uppercase transition-all duration-300 ${i === 0 ? "bg-sage-900 text-white shadow-xl" : "bg-white text-sage-500 border border-sage-100 hover:bg-sage-50"}`}
+                    className={`px-6 py-2.5 rounded-xl text-xs font-bold tracking-widest uppercase transition-all duration-300 ${i === 0 ? "bg-sage-900 text-white shadow-xl" : "bg-white text-sage-600 border border-sage-100 hover:bg-sage-50"}`}
                   >
                     {cat}
                   </button>
@@ -93,7 +93,7 @@ const BlogPage = () => {
                   Subscribe
                 </button>
               </div>
-              <p className="text-[10px] text-sage-400 font-bold uppercase tracking-widest italic">
+              <p className="text-[10px] text-sage-600 font-bold uppercase tracking-widest italic">
                 We respect your pulse. No spam, only science.
               </p>
             </div>

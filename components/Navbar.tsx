@@ -100,6 +100,8 @@ const Navbar: React.FC = () => {
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="p-2 rounded-xl text-sage-800 hover:bg-sage-100 transition-colors"
+              aria-label={isOpen ? "Close menu" : "Open menu"}
+              aria-expanded={isOpen}
             >
               <div className="w-6 h-5 relative flex flex-col justify-between">
                 <span

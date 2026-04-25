@@ -56,7 +56,7 @@ const AboutPage = () => {
               </div>
               <div className="absolute -bottom-8 -right-8 glass-card p-8 max-w-xs shadow-2xl hidden md:block">
                  <p className="text-4xl font-playfair font-bold text-sage-900 mb-1">40+</p>
-                 <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-sage-500">Years of Healing Legacy</p>
+                 <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-sage-600">Years of Healing Legacy</p>
               </div>
             </div>
 
@@ -84,11 +84,11 @@ const AboutPage = () => {
               <div className="grid grid-cols-2 gap-8 pt-4">
                 <div>
                   <p className="text-3xl font-bold text-sage-900 mb-1">17+</p>
-                  <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-sage-500">Years Clinical Exp.</p>
+                  <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-sage-600">Years Clinical Exp.</p>
                 </div>
                 <div>
                   <p className="text-3xl font-bold text-sage-900 mb-1">5000+</p>
-                  <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-sage-500">Happy Patients</p>
+                  <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-sage-600">Happy Patients</p>
                 </div>
               </div>
             </div>

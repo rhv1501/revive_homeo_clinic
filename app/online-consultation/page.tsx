@@ -76,7 +76,7 @@ const OnlineConsultationPage = () => {
               
               <h1 className="text-3xl sm:text-5xl lg:text-7xl font-playfair font-bold text-sage-900 leading-[1.1] tracking-tight break-words">
                 Healing <span className="italic text-terracotta-600">Simplified</span>. <br />
-                Care <span className="text-sage-500">Unbounded</span>.
+                Care <span className="text-sage-600">Unbounded</span>.
               </h1>
               
               <p className="text-base sm:text-lg leading-relaxed text-sage-700 max-w-xl">
@@ -100,7 +100,7 @@ const OnlineConsultationPage = () => {
                 ].map((stat) => (
                   <div key={stat.label} className="flex sm:flex-col items-center sm:items-start gap-4 sm:gap-1">
                     <p className="text-2xl font-playfair font-bold text-sage-900 leading-none">{stat.value}</p>
-                    <p className="text-[10px] font-bold uppercase tracking-widest text-sage-500">{stat.label}</p>
+                    <p className="text-[10px] font-bold uppercase tracking-widest text-sage-600">{stat.label}</p>
                   </div>
                 ))}
               </div>

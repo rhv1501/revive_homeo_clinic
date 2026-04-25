@@ -118,7 +118,7 @@ const OnlineConsultationForm: React.FC = () => {
                 onChange={handleChange}
                 required
                 placeholder="How shall we address you?"
-                className="w-full rounded-2xl border border-sage-200/60 bg-white/50 px-5 sm:px-6 py-3.5 sm:py-4 text-sage-900 outline-none transition-all duration-300 focus:border-terracotta-400 focus:bg-white focus:ring-4 focus:ring-terracotta-400/5 placeholder:text-sage-400"
+                className="w-full rounded-2xl border border-sage-200/60 bg-white/50 px-5 sm:px-6 py-3.5 sm:py-4 text-sage-900 outline-none transition-all duration-300 focus:border-terracotta-400 focus:bg-white focus:ring-4 focus:ring-terracotta-400/5 placeholder:text-sage-600"
               />
             </div>
           </div>
@@ -130,7 +130,7 @@ const OnlineConsultationForm: React.FC = () => {
               onChange={handleChange}
               required
               placeholder="+91 Your mobile number"
-              className="w-full rounded-2xl border border-sage-200/60 bg-white/50 px-6 py-4 text-sage-900 outline-none transition-all duration-300 focus:border-terracotta-400 focus:bg-white focus:ring-4 focus:ring-terracotta-400/5 placeholder:text-sage-400"
+              className="w-full rounded-2xl border border-sage-200/60 bg-white/50 px-6 py-4 text-sage-900 outline-none transition-all duration-300 focus:border-terracotta-400 focus:bg-white focus:ring-4 focus:ring-terracotta-400/5 placeholder:text-sage-600"
             />
           </div>
         </div>
@@ -145,7 +145,7 @@ const OnlineConsultationForm: React.FC = () => {
               onChange={handleChange}
               required
               placeholder="For appointment details"
-              className="w-full rounded-2xl border border-sage-200/60 bg-white/50 px-6 py-4 text-sage-900 outline-none transition-all duration-300 focus:border-terracotta-400 focus:bg-white focus:ring-4 focus:ring-terracotta-400/5 placeholder:text-sage-400"
+              className="w-full rounded-2xl border border-sage-200/60 bg-white/50 px-6 py-4 text-sage-900 outline-none transition-all duration-300 focus:border-terracotta-400 focus:bg-white focus:ring-4 focus:ring-terracotta-400/5 placeholder:text-sage-600"
             />
           </div>
           <div className="space-y-2">
@@ -156,7 +156,7 @@ const OnlineConsultationForm: React.FC = () => {
               value={formData.age}
               onChange={handleChange}
               placeholder="Patient's age"
-              className="w-full rounded-2xl border border-sage-200/60 bg-white/50 px-6 py-4 text-sage-900 outline-none transition-all duration-300 focus:border-terracotta-400 focus:bg-white focus:ring-4 focus:ring-terracotta-400/5 placeholder:text-sage-400"
+              className="w-full rounded-2xl border border-sage-200/60 bg-white/50 px-6 py-4 text-sage-900 outline-none transition-all duration-300 focus:border-terracotta-400 focus:bg-white focus:ring-4 focus:ring-terracotta-400/5 placeholder:text-sage-600"
             />
           </div>
         </div>
@@ -215,7 +215,7 @@ const OnlineConsultationForm: React.FC = () => {
               value={formData.mode}
               onChange={handleChange}
               placeholder="e.g., Video, Phone, WhatsApp"
-              className="w-full rounded-2xl border border-sage-200/60 bg-white/50 px-6 py-4 text-sage-900 outline-none transition-all duration-300 focus:border-terracotta-400 focus:bg-white focus:ring-4 focus:ring-terracotta-400/5 placeholder:text-sage-400"
+              className="w-full rounded-2xl border border-sage-200/60 bg-white/50 px-6 py-4 text-sage-900 outline-none transition-all duration-300 focus:border-terracotta-400 focus:bg-white focus:ring-4 focus:ring-terracotta-400/5 placeholder:text-sage-600"
             />
           </div>
         </div>
@@ -229,7 +229,7 @@ const OnlineConsultationForm: React.FC = () => {
             required
             rows={5}
             placeholder="Help us understand your health journey better..."
-            className="w-full resize-none rounded-3xl border border-sage-200/60 bg-white/50 px-6 py-4 text-sage-900 outline-none transition-all duration-300 focus:border-terracotta-400 focus:bg-white focus:ring-4 focus:ring-terracotta-400/5 placeholder:text-sage-400"
+            className="w-full resize-none rounded-3xl border border-sage-200/60 bg-white/50 px-6 py-4 text-sage-900 outline-none transition-all duration-300 focus:border-terracotta-400 focus:bg-white focus:ring-4 focus:ring-terracotta-400/5 placeholder:text-sage-600"
           />
         </div>
 
@@ -253,7 +253,7 @@ const OnlineConsultationForm: React.FC = () => {
           <div className="absolute inset-0 bg-linear-to-r from-sage-800 to-sage-700 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
         </button>
 
-        <p className="text-center text-[10px] text-sage-400 font-bold uppercase tracking-widest">
+        <p className="text-center text-[10px] text-sage-600 font-bold uppercase tracking-widest">
           Secure & Confidential Process
         </p>
       </form>

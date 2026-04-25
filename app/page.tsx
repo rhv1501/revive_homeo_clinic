@@ -223,7 +223,7 @@ export default function Home() {
               </div>
 
               <div className="p-8 md:p-16 lg:p-20 flex flex-col justify-center">
-                <svg className="w-12 h-12 text-terracotta-500 mb-8 opacity-40" fill="currentColor" viewBox="0 0 24 24">
+                <svg className="w-12 h-12 text-terracotta-600 mb-8 opacity-40" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M14.017 21L14.017 18C14.017 16.8954 14.9124 16 16.017 16H19.017C20.1216 16 21.017 16.8954 21.017 18V21M14.017 21H21.017M14.017 21C12.9124 21 12.017 20.1046 12.017 19V12C12.017 10.8954 12.9124 10 14.017 10H17.017C18.1216 10 19.017 10.8954 19.017 12V15M3.017 21L3.017 18C3.017 16.8954 3.91243 16 5.01695 16H8.01695C9.12152 16 10.017 16.8954 10.017 18V21M3.017 21H10.017M3.017 21C1.91243 21 1.01695 20.1046 1.01695 19V12C1.01695 10.8954 1.91243 10 3.017 10H6.01695C7.12152 10 8.01695 10.8954 8.01695 12V15" />
                 </svg>
                 
@@ -234,11 +234,11 @@ export default function Home() {
                 <div className="grid grid-cols-2 gap-8 mb-12">
                   <div>
                     <p className="text-4xl font-bold text-white mb-2">17+</p>
-                    <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-sage-400">Clinical Experience</p>
+                    <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-sage-600">Clinical Experience</p>
                   </div>
                   <div>
                     <p className="text-4xl font-bold text-white mb-2">5000+</p>
-                    <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-sage-400">Happy Patients</p>
+                    <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-sage-600">Happy Patients</p>
                   </div>
                 </div>
 
@@ -265,7 +265,7 @@ export default function Home() {
               {[1, 2, 3, 4, 5].map((s) => (
                 <svg
                   key={s}
-                  className="h-6 w-6 text-terracotta-500"
+                  className="h-6 w-6 text-terracotta-600"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                 >
@@ -273,7 +273,7 @@ export default function Home() {
                 </svg>
               ))}
             </div>
-            <p className="mt-6 text-[10px] font-bold uppercase tracking-[0.32em] text-sage-500">
+            <p className="mt-6 text-[10px] font-bold uppercase tracking-[0.32em] text-sage-600">
               A legacy of healing excellence in Chennai since 2007
             </p>
           </div>

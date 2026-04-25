@@ -58,7 +58,7 @@ const TreatmentCard: React.FC<TreatmentCardProps> = ({
 
           <div className="grid sm:grid-cols-2 gap-8">
             <div className="space-y-4">
-               <p className="text-[10px] font-bold text-sage-400 uppercase tracking-widest">Target Outcomes</p>
+               <p className="text-[10px] font-bold text-sage-600 uppercase tracking-widest">Target Outcomes</p>
                <ul className="space-y-3">
                  {key_benefits.slice(0, 3).map((benefit, i) => (
                    <li key={i} className="flex items-start text-sm text-sage-700">
@@ -69,7 +69,7 @@ const TreatmentCard: React.FC<TreatmentCardProps> = ({
                </ul>
             </div>
             <div className="space-y-4">
-               <p className="text-[10px] font-bold text-sage-400 uppercase tracking-widest">Commonly Addressed</p>
+               <p className="text-[10px] font-bold text-sage-600 uppercase tracking-widest">Commonly Addressed</p>
                <div className="flex flex-wrap gap-2">
                  {conditions.slice(0, 4).map((cond, i) => (
                    <span key={i} className="px-3 py-1.5 bg-sage-50 text-sage-700 text-[10px] font-bold rounded-lg border border-sage-100 uppercase tracking-wider">
@@ -77,7 +77,7 @@ const TreatmentCard: React.FC<TreatmentCardProps> = ({
                    </span>
                  ))}
                  {conditions.length > 4 && (
-                   <span className="px-3 py-1.5 text-sage-400 text-[10px] font-bold uppercase tracking-wider italic">
+                   <span className="px-3 py-1.5 text-sage-600 text-[10px] font-bold uppercase tracking-wider italic">
                      + {conditions.length - 4} more
                    </span>
                  )}

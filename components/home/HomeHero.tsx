@@ -56,7 +56,7 @@ const HomeHero: React.FC = () => {
               </div>
               <div>
                 <p className="text-sm font-bold text-sage-900">5,000+ Happy Patients</p>
-                <p className="text-xs text-sage-500">Trusted by families for 17+ years</p>
+                <p className="text-xs text-sage-600">Trusted by families for 17+ years</p>
               </div>
             </div>
           </div>
@@ -83,7 +83,7 @@ const HomeHero: React.FC = () => {
                 <div className="flex items-center justify-between mb-4">
                   <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-sage-800">Clinic Excellence</p>
                   <div className="flex gap-1">
-                    {[1,2,3,4,5].map(s => <span key={s} className="text-terracotta-500 text-xs text-bold">★</span>)}
+                    {[1,2,3,4,5].map(s => <span key={s} className="text-terracotta-600 text-xs text-bold">★</span>)}
                   </div>
                 </div>
                 <h4 className="text-xl font-playfair font-bold text-sage-900 mb-2">Sustainable Healing</h4>
