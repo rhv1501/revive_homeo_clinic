@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import { useRouter } from "next/navigation";
 
 const consultationOptions = [
   "Initial Online Consultation",
@@ -19,6 +20,7 @@ const preferredTimeOptions = [
 ];
 
 const OnlineConsultationForm: React.FC = () => {
+  const router = useRouter();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -62,22 +64,12 @@ const OnlineConsultationForm: React.FC = () => {
 
       if (!response.ok) throw new Error("Failed");
 
-      setSubmitStatus({
-        type: "success",
-        message: "Your online consultation request has been received. We will confirm the next available slot shortly.",
-      });
+      // Set submission flag for Thank You page
+      if (typeof window !== 'undefined') {
+        sessionStorage.setItem('formSubmitted', 'true');
+      }
 
-      setFormData({
-        name: "",
-        email: "",
-        phone: "",
-        age: "",
-        consultationType: "",
-        preferredDate: "",
-        preferredTime: "",
-        mode: "Video / Phone",
-        message: "",
-      });
+      router.push("/thank-you");
     } catch {
       setSubmitStatus({
         type: "error",

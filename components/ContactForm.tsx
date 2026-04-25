@@ -1,10 +1,11 @@
 "use client";
 
 import React, { useState, useEffect, Suspense } from "react";
-import { useSearchParams } from "next/navigation";
+import { useSearchParams, useRouter } from "next/navigation";
 
 const ContactFormInner = () => {
   const searchParams = useSearchParams();
+  const router = useRouter();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -51,16 +52,12 @@ const ContactFormInner = () => {
 
       if (!response.ok) throw new Error("Failed");
 
-      setSubmitStatus({
-        type: "success",
-        message: "Your inquiry has been received. Our clinical coordinator will reach out shortly.",
-      });
+      // Set submission flag for Thank You page
+      if (typeof window !== 'undefined') {
+        sessionStorage.setItem('formSubmitted', 'true');
+      }
 
-      setFormData({
-        name: "", email: "", phone: "", mobile: "", age: "", gender: "", subject: "", message: "",
-      });
-
-      setTimeout(() => setSubmitStatus({ type: null, message: "" }), 6000);
+      router.push("/thank-you");
     } catch {
       setSubmitStatus({
         type: "error",
