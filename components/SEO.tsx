@@ -24,7 +24,7 @@ const SEO: React.FC<SEOProps> = ({
   url = typeof window !== "undefined" ? window.location.href : "",
   image = "/images/og-image.jpg",
   type = "website",
-  siteName = "Revive Homeo Clinic",
+  siteName = "Revivee Homeo Clinic",
   locale = "en_US",
   twitterCard = "summary_large_image",
   noIndex = false,
@@ -99,7 +99,7 @@ const SEO: React.FC<SEOProps> = ({
     updateMetaTag("twitter:title", fullTitle);
     updateMetaTag("twitter:description", description);
     updateMetaTag("twitter:image", imageUrl);
-    updateMetaTag("twitter:creator", "@revivehomeoclinic");
+    updateMetaTag("twitter:creator", "@reviveehomeoclinic");
 
     // Additional Meta Tags for Medical Websites
     updateMetaTag("rating", "general");

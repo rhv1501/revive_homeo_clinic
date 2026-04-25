@@ -19,7 +19,7 @@ export const useSEO = ({
 }: SEOData) => {
   useEffect(() => {
     // Update document title
-    document.title = `${title} | Revive Homeo Clinic`;
+    document.title = `${title} | Revivee Homeo Clinic`;
 
     // Create or update meta tags
     const updateMetaTag = (name: string, content: string, property = false) => {
@@ -46,19 +46,19 @@ export const useSEO = ({
     updateMetaTag("robots", "index, follow");
 
     // Open Graph tags
-    updateMetaTag("og:title", `${title} | Revive Homeo Clinic`, true);
+    updateMetaTag("og:title", `${title} | Revivee Homeo Clinic`, true);
     updateMetaTag("og:description", description, true);
     updateMetaTag("og:type", "website", true);
-    updateMetaTag("og:site_name", "Revive Homeo Clinic", true);
+    updateMetaTag("og:site_name", "Revivee Homeo Clinic", true);
     updateMetaTag("og:image", ogImage, true);
     updateMetaTag("og:url", canonical || window.location.href, true);
 
     // Twitter Card tags
     updateMetaTag("twitter:card", "summary_large_image");
-    updateMetaTag("twitter:title", `${title} | Revive Homeo Clinic`);
+    updateMetaTag("twitter:title", `${title} | Revivee Homeo Clinic`);
     updateMetaTag("twitter:description", description);
     updateMetaTag("twitter:image", ogImage);
-    updateMetaTag("twitter:creator", "@revivehomeoclinic");
+    updateMetaTag("twitter:creator", "@reviveehomeoclinic");
 
     // Canonical URL
     if (canonical) {

@@ -32,7 +32,7 @@ const AboutPage = () => {
           </h1>
 
           <p className="max-w-3xl mx-auto text-lg md:text-xl text-sage-700 leading-relaxed animate-slide-up [animation-delay:400ms]">
-            Since 2007, Revive Homeo Clinic has been dedicated to restoring health through constitutional homeopathy, 
+            Since 2007, Revivee Homeo Clinic has been dedicated to restoring health through constitutional homeopathy, 
             guided by a clinical lineage that spans over four decades.
           </p>
         </div>
@@ -71,7 +71,7 @@ const AboutPage = () => {
 
               <div className="space-y-6 text-lg text-sage-700 leading-relaxed">
                 <p>
-                  Revive Homeo Clinic is built on a foundation of generational expertise. 
+                  Revivee Homeo Clinic is built on a foundation of generational expertise. 
                   The foundation of our practice was laid by Dr. Nritiya Dave&apos;s father, 
                   a passionate homeopath who has devoted over 40 years to the practice of healing through nature.
                 </p>

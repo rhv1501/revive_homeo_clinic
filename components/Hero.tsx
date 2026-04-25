@@ -37,7 +37,7 @@ const Hero: React.FC<HeroProps> = ({
           <div className="inline-flex items-center gap-3 rounded-full border border-sage-200 bg-white/80 px-4 py-2 shadow-sm backdrop-blur-sm">
             <span className="h-2 w-2 rounded-full bg-terracotta-500" />
             <span className="text-[10px] font-bold uppercase tracking-[0.32em] text-sage-700">
-              {eyebrow ?? "Revive Homeo Clinic"}
+              {eyebrow ?? "Revivee Homeo Clinic"}
             </span>
           </div>
           <h1 className={`${titleClasses} mt-6`}>{title}</h1>

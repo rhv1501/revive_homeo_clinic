@@ -45,7 +45,7 @@ const Footer: React.FC = () => {
                 />
               </div>
               <span className="font-playfair font-bold text-2xl tracking-tight text-white">
-                REVIVE
+                REVIVEE
               </span>
             </Link>
             <p className="text-sage-200/90 text-sm leading-relaxed max-w-xs">
@@ -181,7 +181,7 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-sage-700 pt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 relative z-10">
           <p className="text-sage-600 text-xs font-medium uppercase tracking-widest text-center md:text-left">
-            © {currentYear} Revive Homeo Clinic. Personalized homeopathic care
+            © {currentYear} Revivee Homeo Clinic. Personalized homeopathic care
             in Chennai.
           </p>
           <div className="flex space-x-6 text-xs text-sage-600 font-medium">

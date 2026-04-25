@@ -96,11 +96,11 @@ export const PAGE_KEYWORDS = {
 export const PAGE_DESCRIPTIONS = {
   home: "Expert homeopathic treatment for chronic diseases, natural healing, and holistic wellness. 15+ years of experience in Chennai. Book your consultation today.",
   about:
-    "Learn about Revive Homeo Clinic, our mission for natural healing, and meet our expert team led by Dr. Nritiya Dave with 15+ years of experience.",
+    "Learn about Revivee Homeo Clinic, our mission for natural healing, and meet our expert team led by Dr. Nritiya Dave with 15+ years of experience.",
   contact:
-    "Contact Revive Homeo Clinic for expert homeopathic treatment. Schedule your consultation for chronic diseases, natural healing, and holistic wellness care.",
+    "Contact Revivee Homeo Clinic for expert homeopathic treatment. Schedule your consultation for chronic diseases, natural healing, and holistic wellness care.",
   onlineConsultation:
-    "Book an online homeopathy consultation with Revive Homeo Clinic. Get a personalized virtual assessment for chronic conditions, skin issues, hormonal concerns, and pediatric care.",
+    "Book an online homeopathy consultation with Revivee Homeo Clinic. Get a personalized virtual assessment for chronic conditions, skin issues, hormonal concerns, and pediatric care.",
   treatments:
     "Comprehensive homeopathic treatments for chronic diseases, women's health, child care, and general wellness. Natural healing solutions for all ages.",
   testimonials:
@@ -110,16 +110,16 @@ export const PAGE_DESCRIPTIONS = {
 
 // Social media meta data
 export const SOCIAL_LINKS = {
-  facebook: "https://www.facebook.com/revivehomeoclinic",
-  instagram: "https://www.instagram.com/revivehomeoclinic",
-  twitter: "https://www.twitter.com/revivehomeoclinic",
-  linkedin: "https://www.linkedin.com/company/revivehomeoclinic",
-  youtube: "https://www.youtube.com/revivehomeoclinic",
+  facebook: "https://www.facebook.com/reviveehomeoclinic",
+  instagram: "https://www.instagram.com/reviveehomeoclinic",
+  twitter: "https://www.twitter.com/reviveehomeoclinic",
+  linkedin: "https://www.linkedin.com/company/reviveehomeoclinic",
+  youtube: "https://www.youtube.com/reviveehomeoclinic",
 };
 
 // Business information for structured data
 export const BUSINESS_INFO = {
-  name: "Revive Homeo Clinic",
+  name: "Revivee Homeo Clinic",
   description:
     "Expert homeopathic treatment for chronic diseases and natural healing",
   phone: "+91-9876543210",

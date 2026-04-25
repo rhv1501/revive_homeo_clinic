@@ -41,7 +41,7 @@ const ThankYouPage = () => {
           <div className="relative h-[250px] md:h-[400px] rounded-[3rem] overflow-hidden shadow-2xl border-4 border-white transform hover:scale-[1.01] transition-transform">
             <Image
               src={clinicInterior}
-              alt="Revive Homeo Clinic"
+              alt="Revivee Homeo Clinic"
               fill
               className="object-cover"
               priority
@@ -69,7 +69,7 @@ const ThankYouPage = () => {
 
           <div className="p-8 rounded-[2.5rem] bg-white border border-sage-100 shadow-xl space-y-6">
             <p className="text-lg text-sage-700 leading-relaxed">
-              Thank you for trusting <strong className="text-sage-900">Revive Homeo Clinic</strong> with your health journey. 
+              Thank you for trusting <strong className="text-sage-900">Revivee Homeo Clinic</strong> with your health journey. 
               We have received your details and our clinical coordinator is already reviewing your case history.
             </p>
             

@@ -51,7 +51,7 @@ const Navbar: React.FC = () => {
             <div className="relative w-10 h-10 2k:w-12 2k:h-12 bg-white rounded-2xl shadow-sm border border-sage-100 flex items-center justify-center p-1 group-hover:scale-105 transition-transform duration-300">
               <Image
                 src="/assets/logo_1.png"
-                alt="Revive Homeo Clinic Logo"
+                alt="Revivee Homeo Clinic Logo"
                 width={40}
                 height={40}
                 className="object-contain"
@@ -59,7 +59,7 @@ const Navbar: React.FC = () => {
             </div>
             <div className="flex flex-col">
               <span className="font-playfair font-bold text-xl 2k:text-2xl text-sage-900 tracking-tight leading-none group-hover:text-sage-700 transition-colors">
-                REVIVE
+                REVIVEE
               </span>
               <span className="text-[10px] 2k:text-xs font-bold tracking-[0.2em] text-terracotta-600 leading-none mt-1 uppercase">
                 Homeo Clinic
@@ -87,10 +87,10 @@ const Navbar: React.FC = () => {
 
             <div className="ml-6 flex items-center space-x-4">
               <Link
-                href="/online-consultation"
+                href={pathname === "/online-consultation" ? "#request-form" : "/contact"}
                 className="btn-premium py-2.5 px-6 text-sm shadow-none hover:shadow-lg"
               >
-                Book Online
+                {pathname === "/online-consultation" ? "Book Online" : "Book a Visit"}
               </Link>
             </div>
           </div>
@@ -146,11 +146,11 @@ const Navbar: React.FC = () => {
               </Link>
             ))}
             <Link
-              href="/online-consultation"
+              href={pathname === "/online-consultation" ? "#request-form" : "/contact"}
               onClick={() => setIsOpen(false)}
               className="block w-full mt-4 text-center btn-premium"
             >
-              Book Online
+              {pathname === "/online-consultation" ? "Book Online" : "Book a Visit"}
             </Link>
           </div>
         </div>

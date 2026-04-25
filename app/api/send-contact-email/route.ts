@@ -53,7 +53,7 @@ export async function POST(request: Request) {
             <p style="white-space: pre-wrap;">${formData.message}</p>
           </div>
           <div style="background: #f8fafc; padding: 12px; text-align: center; font-size: 12px; color: #64748b;">
-            Sent from Revive Homeo Clinic Contact Form
+            Sent from Revivee Homeo Clinic Contact Form
           </div>
         </div>
       `,

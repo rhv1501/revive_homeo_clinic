@@ -18,8 +18,8 @@ export const metadata: Metadata = {
   description: PAGE_DESCRIPTIONS.home,
   keywords: "homeopathy chennai, natural treatment psoriasis, pcos homeopathy, chronic pain management, pediatric homeopathy, best homeopathic doctor",
   authors: [{ name: "Dr. Nritiya Dave" }],
-  creator: "Revive Homeo Clinic",
-  publisher: "Revive Homeo Clinic",
+  creator: "Revivee Homeo Clinic",
+  publisher: "Revivee Homeo Clinic",
   formatDetection: {
     email: false,
     address: true,

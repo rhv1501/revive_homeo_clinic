@@ -18,7 +18,7 @@ const TreatmentsPage = () => {
         "description": service.description,
         "provider": {
           "@type": "MedicalBusiness",
-          "name": "Revive Homeo Clinic"
+          "name": "Revivee Homeo Clinic"
         }
       }
     }))

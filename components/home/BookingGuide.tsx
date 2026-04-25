@@ -56,7 +56,7 @@ const BookingGuide = () => {
             <div className="relative h-[350px] rounded-[3rem] overflow-hidden shadow-2xl border-4 border-white">
               <Image
                 src={clinicInterior}
-                alt="Revive Homeo Clinic Interior Chennai"
+                alt="Revivee Homeo Clinic Interior Chennai"
                 fill
                 priority
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 600px"

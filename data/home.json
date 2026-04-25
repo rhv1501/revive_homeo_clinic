@@ -1,8 +1,8 @@
 {
   "hero": {
     "title": "Restoring Health, Reviving Lives",
-    "subtitle": "Welcome to Revive Homeo Clinic",
-    "description": "At Revive Homeo Clinic, we blend 17 years of clinical expertise with a warm, patient-focused approach. Led by Dr. Nritiya Dave, our clinic offers complete family healthcare with special focus on:",
+    "subtitle": "Welcome to Revivee Homeo Clinic",
+    "description": "At Revivee Homeo Clinic, we blend 17 years of clinical expertise with a warm, patient-focused approach. Led by Dr. Nritiya Dave, our clinic offers complete family healthcare with special focus on:",
     "specialties": [
       "Women's Health & Hormonal Balance",
       "Child Care & Immunity Support",
@@ -40,7 +40,7 @@
   ],
   "story": {
     "title": "Our Story",
-    "content": "Founded with a passion for natural healing, Revive Homeo Clinic has been serving the community for almost two decades. The foundation of the clinic was laid by Dr. Nritiya Dave's father, a passionate homeopath who has devoted over 40 years to the practice of healing through nature.",
+    "content": "Founded with a passion for natural healing, Revivee Homeo Clinic has been serving the community for almost two decades. The foundation of the clinic was laid by Dr. Nritiya Dave's father, a passionate homeopath who has devoted over 40 years to the practice of healing through nature.",
     "inspiration": "Inspired by this legacy, Dr. Dave continues the journey with the same compassion and commitment, blending time-tested homeopathic principles with modern health insights to deliver holistic, trustworthy care for every generation.",
     "mission": {
       "title": "Our Mission",
@@ -52,7 +52,7 @@
     },
     "legacy": {
       "title": "Our Legacy",
-      "subtitle": "Revive Homeo Clinic is built on a foundation of generational expertise:",
+      "subtitle": "Revivee Homeo Clinic is built on a foundation of generational expertise:",
       "points": [
         "Over 40 years of dedication by Dr. Dave's father in pioneering natural healing.",
         "Nearly two decades of Dr. Dave's compassionate, modern, and patient-focused practice.",
@@ -88,7 +88,7 @@
         }
       ]
     },
-    "closing": "At Revive Homeo Clinic, every consultation is more than treatment — it's a step towards balance, wellness, and a healthier, fuller life."
+    "closing": "At Revivee Homeo Clinic, every consultation is more than treatment — it's a step towards balance, wellness, and a healthier, fuller life."
   },
   "stats": [
     {
