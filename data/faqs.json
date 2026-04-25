@@ -1,0 +1,46 @@
+[
+  {
+    "question": "What is Homeopathy?",
+    "answer": "Homeopathy is a system of medicine founded by German doctor Dr. Samuel Hahnemann over 200 years ago. It is based on the Principle of Similars (Similia Similibus Curentur, meaning 'Let likes be cured by likes'). This principle has three core aspects: 1) Pharmacologically-active agents produce specific symptoms in healthy individuals at higher doses. 2) Ill individuals exhibit symptoms as the body tries to heal itself. 3) Those same active agents can cure similar symptoms when administered in a much lower, highly diluted dose. For example, a homeopathic preparation of red onion (Allium cepa) is used to relieve the runny nose and watery eyes it causes in its raw form."
+  },
+  {
+    "question": "What are homeopathic products?",
+    "answer": "Homeopathic products are medicines derived from botanical, mineral, or biological substances. They are classified as either over-the-counter (OTC) or prescription medicines. They are believed to be more clinically effective when highly diluted in purified water or an alcohol solution. Their potency is expressed on the label by a number followed by an X (indicating a 1:10 dilution) or a C (indicating a 1:100 dilution), which refers to how many times the substance was diluted. They are available in many forms, including tablets, liquids, gels, capsules, nasal sprays, and syrups."
+  },
+  {
+    "question": "Is Homeopathy safe to take for anyone?",
+    "answer": "Yes, homeopathic medicines contain very small, highly diluted amounts of active ingredients and are generally considered safe for all age groups, including infants, and pregnant or lactating mothers. They can also typically be used safely alongside other OTC medicines, prescription drugs, and dietary supplements. However, users should always read the product label carefully and follow all dosing instructions. It is always advisable to take homeopathic medicines under the guidance of a qualified and experienced homeopathic doctor."
+  },
+  {
+    "question": "Do Homeopathic medicines have any side effects?",
+    "answer": "Homeopathic medicines are prepared in very small, highly diluted doses, which makes them generally safe and free from harmful side effects. Unlike conventional drugs, they don't burden the liver, kidneys, or stomach. The only caution is that they should be taken under a qualified homeopath's guidance for the best and safest results."
+  },
+  {
+    "question": "Do Homeopathic medicines have any steroids?",
+    "answer": "No. Genuine homeopathic medicines do not contain steroids. They are prepared from natural sources (plants, minerals, or animal substances) in an extremely diluted form. Laboratory tests, such as steroid profile tests, can easily confirm that authentic homeopathic medicines are free from steroids."
+  },
+  {
+    "question": "Is homeopathy a placebo effect?",
+    "answer": "No. The positive response of infants, children, and animals to homeopathic treatment, who cannot be influenced by placebo suggestion, clearly shows it is not just a placebo effect. Furthermore, many clinical trials and scientific studies have demonstrated that homeopathy provides benefits beyond a placebo by stimulating the body's natural healing ability."
+  },
+  {
+    "question": "Do homeopathic medicines take longer than conventional medicines to treat a health problem?",
+    "answer": "Not always. The speed of recovery depends on the nature of the illness. Acute problems like fever, cough, diarrhea, or injuries often respond quickly to homeopathy. Chronic diseases (like allergies, skin problems, or arthritis) take longer to treat because the illness itself has developed over months or years. Homeopathy aims for a gentle and long-term cure rather than just quick symptom suppression."
+  },
+  {
+    "question": "I've heard that homeopathic medicines work very slowly. Is it true?",
+    "answer": "This is a common myth. Homeopathy can act very fast in acute cases, such as a child's cold, food poisoning, or an injury, which can improve within hours. In chronic diseases, treatment is understandably more gradual because the goal is to correct the root imbalance of the body, not just provide quick, temporary relief."
+  },
+  {
+    "question": "Does Homeopathy believe in disease diagnosis and pathological investigations?",
+    "answer": "Yes. Qualified homeopathic doctors undergo rigorous medical training similar to conventional doctors, which includes anatomy, physiology, pathology, diagnosis, and clinical medicine. They use modern investigations (blood tests, X-rays, scans, etc.) to assess the condition, make a diagnosis, and monitor progress. Homeopathy treats the patient as a whole while also considering the disease diagnosis."
+  },
+  {
+    "question": "Are there limitations to what homeopathy can treat?",
+    "answer": "Yes. Like every system of medicine, homeopathy has its scope and limitations. It works very well for many chronic and acute illnesses. However, in emergencies (heart attack, severe asthma, stroke, accidents, fractures) or when surgical intervention is necessary, conventional medicine is the primary and essential choice. Homeopathy can then play a supportive role in recovery and improving general health."
+  },
+  {
+    "question": "What about using homeopathy for terminally ill patients?",
+    "answer": "In terminal illnesses, homeopathy is not a replacement for life-saving conventional treatments. However, it can play an important supportive role by helping to reduce pain, discomfort, and side effects of strong medications like chemotherapy; improving quality of life by reducing anxiety and sleeplessness; and supporting the patient's overall well-being and dignity throughout their healing journey."
+  }
+]

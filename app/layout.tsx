@@ -1,0 +1,133 @@
+import type { Metadata } from "next";
+import { Cormorant_Garamond, Manrope } from "next/font/google";
+import "./globals.css";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import ScrollToTop from "../components/ScrollToTop";
+import FloatingActionButton from "../components/FloatingActionButton";
+import { BUSINESS_INFO, PAGE_DESCRIPTIONS } from "../utils/seoUtils";
+
+const playfair = Cormorant_Garamond({ subsets: ["latin"], weight: ["400", "700"], variable: "--font-playfair" });
+const inter = Manrope({ subsets: ["latin"], weight: ["400", "500", "600", "700", "800"], variable: "--font-inter" });
+
+export const metadata: Metadata = {
+  title: {
+    default: `${BUSINESS_INFO.name} | Best Homeopathy Clinic in Chennai`,
+    template: `%s | ${BUSINESS_INFO.name}`,
+  },
+  description: PAGE_DESCRIPTIONS.home,
+  keywords: "homeopathy chennai, natural treatment psoriasis, pcos homeopathy, chronic pain management, pediatric homeopathy, best homeopathic doctor",
+  authors: [{ name: "Dr. Nritiya Dave" }],
+  creator: "Revive Homeo Clinic",
+  publisher: "Revive Homeo Clinic",
+  formatDetection: {
+    email: false,
+    address: true,
+    telephone: true,
+  },
+  metadataBase: new URL("https://www.revivehomeoclinic.com"),
+  openGraph: {
+    title: BUSINESS_INFO.name,
+    description: PAGE_DESCRIPTIONS.home,
+    url: "https://www.revivehomeoclinic.com",
+    siteName: BUSINESS_INFO.name,
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: BUSINESS_INFO.name,
+    description: PAGE_DESCRIPTIONS.home,
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "MedicalBusiness",
+    "name": BUSINESS_INFO.name,
+    "image": "https://www.revivehomeoclinic.com/assets/logo_1.png",
+    "@id": "https://www.revivehomeoclinic.com",
+    "url": "https://www.revivehomeoclinic.com",
+    "telephone": "+919840439401",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "New No. 11, Old No. 2, 6th Ave, Block F, Anna Nagar East",
+      "addressLocality": "Chennai",
+      "postalCode": "600102",
+      "addressRegion": "Tamil Nadu",
+      "addressCountry": "IN"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 13.085939,
+      "longitude": 80.254125
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "10:00",
+      "closes": "20:30"
+    },
+    "medicalSpecialty": [
+      "HomeopathicMedicine",
+      "SkinMedicine",
+      "PediatricMedicine",
+      "WomenHealth"
+    ],
+    "founder": {
+      "@type": "Person",
+      "name": "Dr. Nritiya Dave"
+    }
+  };
+
+  return (
+    <html 
+      lang="en" 
+      className={`${playfair.variable} ${inter.variable}`}
+      suppressHydrationWarning
+      data-scroll-behavior="smooth"
+    >
+      <head>
+        <link rel="preconnect" href="https://images.unsplash.com" />
+        <link rel="preconnect" href="https://img.freepik.com" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
+      <body className="antialiased font-inter text-sage-900 page-shell" suppressHydrationWarning>
+        <ScrollToTop />
+        <div className="flex flex-col min-h-screen">
+          <Navbar />
+          <main className="grow page-main">{children}</main>
+          <Footer />
+          <FloatingActionButton />
+        </div>
+      </body>
+    </html>
+  );
+}

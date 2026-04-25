@@ -1,0 +1,167 @@
+{
+  "hero": {
+    "title": "Restoring Health, Reviving Lives",
+    "subtitle": "Welcome to Revive Homeo Clinic",
+    "description": "At Revive Homeo Clinic, we blend 17 years of clinical expertise with a warm, patient-focused approach. Led by Dr. Nritiya Dave, our clinic offers complete family healthcare with special focus on:",
+    "specialties": [
+      "Women's Health & Hormonal Balance",
+      "Child Care & Immunity Support",
+      "Skin Conditions & Allergies",
+      "Digestive & Gastrointestinal Disorders"
+    ],
+    "closing": "We believe in treating the root cause, not just the symptoms — restoring your body's natural balance through safe, effective, and personalised homeopathic care.",
+    "cta": {
+      "primary": "Book Consultation",
+      "secondary": "Learn More"
+    },
+    "image": "/images/hero-homeopathy.jpg"
+  },
+  "features": [
+    {
+      "title": "Natural & Safe",
+      "description": "FDA-approved homeopathic remedies with no harmful side effects",
+      "icon": "leaf"
+    },
+    {
+      "title": "Personalized Treatment",
+      "description": "Customized treatment plans based on your unique constitution",
+      "icon": "user"
+    },
+    {
+      "title": "Holistic Approach",
+      "description": "Treating mind, body, and spirit for complete wellness. Not just quick fixes, but lasting health.",
+      "icon": "heart"
+    },
+    {
+      "title": "Proven Results",
+      "description": "Nearly two decades of dedicated clinical expertise with over 5000+ cases successfully treated.",
+      "icon": "award"
+    }
+  ],
+  "story": {
+    "title": "Our Story",
+    "content": "Founded with a passion for natural healing, Revive Homeo Clinic has been serving the community for almost two decades. The foundation of the clinic was laid by Dr. Nritiya Dave's father, a passionate homeopath who has devoted over 40 years to the practice of healing through nature.",
+    "inspiration": "Inspired by this legacy, Dr. Dave continues the journey with the same compassion and commitment, blending time-tested homeopathic principles with modern health insights to deliver holistic, trustworthy care for every generation.",
+    "mission": {
+      "title": "Our Mission",
+      "content": "To provide safe, effective, and personalized homeopathic treatment that empowers individuals to achieve optimal health — naturally."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "content": "To be a trusted centre for holistic healing, where every individual finds care that restores balance, nurtures wellness, and empowers healthier living through homeopathy."
+    },
+    "legacy": {
+      "title": "Our Legacy",
+      "subtitle": "Revive Homeo Clinic is built on a foundation of generational expertise:",
+      "points": [
+        "Over 40 years of dedication by Dr. Dave's father in pioneering natural healing.",
+        "Nearly two decades of Dr. Dave's compassionate, modern, and patient-focused practice.",
+        "A continuous commitment to healing, balance, and lifelong wellness."
+      ]
+    },
+    "values": {
+      "title": "Our Values",
+      "items": [
+        {
+          "name": "Compassionate Care",
+          "description": "Every patient is heard, understood, and supported."
+        },
+        {
+          "name": "Personalisation",
+          "description": "Treatments are tailored to the unique needs of each individual."
+        },
+        {
+          "name": "Integrity & Trust",
+          "description": "Ethical, transparent, and honest practice always."
+        },
+        {
+          "name": "Holistic Healing",
+          "description": "Focus on physical, mental, and emotional well-being together."
+        },
+        {
+          "name": "Legacy of Excellence",
+          "description": "Honouring decades of dedication to safe, natural healthcare."
+        },
+        {
+          "name": "Evidence-Based Practice",
+          "description": "Combining traditional homeopathic wisdom with modern medical insights and research."
+        }
+      ]
+    },
+    "closing": "At Revive Homeo Clinic, every consultation is more than treatment — it's a step towards balance, wellness, and a healthier, fuller life."
+  },
+  "stats": [
+    {
+      "number": "5000+",
+      "label": "Happy Patients"
+    },
+    {
+      "number": "17+",
+      "label": "Years Experience"
+    },
+    {
+      "number": "95%",
+      "label": "Success Rate"
+    },
+    {
+      "number": "24/7",
+      "label": "Support Available"
+    }
+  ],
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Get to know Dr. Nritiya Dave and her comprehensive homeopathic care in Purasawalkam, Chennai",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Who is Dr. Nritiya Dave?",
+        "answer": "Dr. Nritiya Dave is a highly experienced homeopath in Purasawalkam, Chennai, specialising in holistic homeopathic treatments for both acute and chronic conditions."
+      },
+      {
+        "id": 2,
+        "question": "Where does Dr. Nritiya Dave practice?",
+        "answer": "Dr. Nritiya Dave practices in Purasawalkam, Chennai, where she offers comprehensive homeopathic care."
+      },
+      {
+        "id": 3,
+        "question": "What are Dr. Nritiya Dave's qualifications?",
+        "answer": "Dr. Nritiya Dave holds a BHMS degree, a Post Graduate Diploma in Homeopathy from the UK, and a certification in Clinical Psychology."
+      },
+      {
+        "id": 4,
+        "question": "Is Dr. Nritiya Dave the best homeopathy doctor near Purasawalkam, Chennai?",
+        "answer": "Dr. Nritiya Dave is widely recognised as one of the best homeopathy doctors near Purasawalkam, Chennai, known for her expertise and personalised approach to patient care."
+      },
+      {
+        "id": 5,
+        "question": "What services does Dr. Nritiya Dave offer?",
+        "answer": "Dr. Nritiya Dave offers a wide range of homeopathic services, including treatment for pediatric issues, female health, respiratory issues, skin and hair complaints, gastrointestinal issues, and mental health counselling."
+      },
+      {
+        "id": 6,
+        "question": "Does Dr. Nritiya Dave specialise in any particular area of homeopathy?",
+        "answer": "Yes, Dr. Nritiya Dave specialises in pediatric care, female health, respiratory issues, and mental health counselling, providing personalised homeopathic treatments."
+      },
+      {
+        "id": 7,
+        "question": "Can Dr. Nritiya Dave help with mental health issues?",
+        "answer": "Yes, Dr. Nritiya Dave offers counselling and homeopathic care for mental health issues such as anxiety, depression, and stress management."
+      },
+      {
+        "id": 8,
+        "question": "How long has Dr. Nritiya Dave been practising homeopathy?",
+        "answer": "Dr. Nritiya Dave has been practising homeopathy for nearly 17 years, providing expert care in Purasawalkam, Chennai."
+      },
+      {
+        "id": 9,
+        "question": "What makes Dr. Nritiya Dave's approach unique?",
+        "answer": "Dr. Nritiya Dave's approach is unique because she combines her expertise in homeopathy with a certification in Clinical Psychology, allowing her to address both physical and mental health concerns."
+      },
+      {
+        "id": 10,
+        "question": "Where can I find the best homeopathy doctor in Purasawalkam, Chennai?",
+        "answer": "Dr. Nritiya Dave is considered one of the best homeopathy doctors in Purasawalkam, Chennai, offering expert and compassionate care for a wide range of health issues."
+      }
+    ]
+  }
+}

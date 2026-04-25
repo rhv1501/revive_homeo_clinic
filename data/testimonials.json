@@ -1,0 +1,127 @@
+{
+  "title": "What Our Patients Say",
+  "subtitle": "Real stories from people who found healing through homeopathy",
+  "description": "Rate us on Google",
+  "Google Profile Link": "https://share.google/pbxTDTZfbk15IgCIY",
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Jaiwanth Raj",
+      "condition": "General Health & Wellness",
+      "rating": 5,
+      "text": "One of the best homeopathy doctors I have ever been to. Dr. Nritiya provides focused consultation that is personalized to each person and works to identify and cure the root cause and not just focus on the symptoms. Truly goes above and beyond to ensure your health is in top condition.",
+      "date": "2024-12-15",
+      "location": "Chennai"
+    },
+    {
+      "id": 2,
+      "name": "Rani Chawla",
+      "condition": "Various Family Ailments",
+      "rating": 5,
+      "text": "My family and I have been visiting Dr. Nritiya for various ailments. We are grateful to have found a genuine homeopath in her, she patiently listens to us, and understands our problems. We highly recommend taking homeopathic treatment with her.",
+      "date": "2024-11-28",
+      "location": "Chennai"
+    },
+    {
+      "id": 3,
+      "name": "Monika Gupta",
+      "condition": "Emotional Wellness",
+      "rating": 5,
+      "text": "Positive words from Dr. Nritiya works faster than medicines.",
+      "date": "2018-08-01",
+      "location": "Chennai"
+    },
+    {
+      "id": 4,
+      "name": "Uma",
+      "condition": "Dandruff, Acne, Persistent Cough",
+      "rating": 5,
+      "text": "For the past few years, I've been dealing with dandruff problems, which led to severe acne. Despite consulting numerous doctors, it wasn't until I took medication from Dr. Nirthya for four months that the issue subsided. Additionally, I had been experiencing a persistent cough for the past six months, but with Dr. Nirthya's treatment, I started noticing improvements within a few days. I highly recommend her services.",
+      "date": "2023-08-17",
+      "location": "Chennai"
+    },
+    {
+      "id": 5,
+      "name": "Nitika Singh",
+      "condition": "General Health (Self & Son)",
+      "rating": 5,
+      "text": "One of the best homeo Doctor I have come across. So far all the treatment has worked out for me and my son. She spends good time in listening and understanding the problems and also guides accordingly. I'm glad to find her and have recommended to my friends as well.",
+      "date": "2023-08-17",
+      "location": "Chennai"
+    },
+    {
+      "id": 6,
+      "name": "Jaiwanth Raj",
+      "condition": "General Health & Wellness",
+      "rating": 5,
+      "text": "One of the best homeopathy doctors I've ever been to. Dr. Nritiya provides focussed consultation which is personalised to each person and works to identify and cure the root cause and not just focus on the symptoms. Truly goes above and beyond.",
+      "date": "2023-08-17",
+      "location": "Chennai"
+    },
+    {
+      "id": 7,
+      "name": "Rakhi H Vora",
+      "condition": "Menstrual Cycle Issues",
+      "rating": 5,
+      "text": "Dr. Nritiya has a very good approach to her patients, makes us feel comfortable, and her medicines give immense relief. I suffered for 4 years with menstrual cycle problems, and no medication worked until Dr. Nritiya took up my case. I was perfectly fine after her treatment. I thank her wholeheartedly.",
+      "date": "2022-08-17",
+      "location": "Chennai"
+    },
+    {
+      "id": 8,
+      "name": "Nikita Sheth",
+      "condition": "Arthritis",
+      "rating": 5,
+      "text": "Loved the experience with Dr. Nritya. She is very patient and helped me with all my queries and ailments. Her medicines are effective and are helping me recover from my arthritis.",
+      "date": "2023-08-17",
+      "location": "Chennai"
+    },
+    {
+      "id": 9,
+      "name": "Manisha Sharma",
+      "condition": "Backache, Allergies, Tonsils, Dengue",
+      "rating": 5,
+      "text": "I have known Dr. Nritya for almost 2 decades now. She has cured my backache, my daughters' allergies, tonsils, nose bleeds, dengue, and more. A very sensitive and sensible doctor, and a great counselor too. She is the go-to person for all our family ailments. Highly recommended.",
+      "date": "2022-08-17",
+      "location": "Chennai"
+    },
+    {
+      "id": 10,
+      "name": "Naaz Nasar",
+      "condition": "Long-term Patient",
+      "rating": 5,
+      "text": "From 19 years I am a patient of this Doctor. Good in understanding the patient problem and diagnosing the problem. Very much satisfied with the treatment. She's the best doctor.",
+      "date": "2023-08-17",
+      "location": "Chennai"
+    },
+    {
+      "id": 11,
+      "name": "Sheetal Rayathatha",
+      "condition": "Pediatric Care",
+      "rating": 5,
+      "text": "My kids call her the Magic Doctor. When allopathy didn't help, homeopathy did. It's a boon to my children.",
+      "date": "2019-08-17",
+      "location": "Chennai"
+    },
+    {
+      "id": 12,
+      "name": "Sonia Parekh",
+      "condition": "General Health",
+      "rating": 5,
+      "text": "A very friendly and caring doctor, treatment and medicines are good. Dr. Nritya, thank you so much!",
+      "date": "2022-08-17",
+      "location": "Chennai"
+    }
+  ],
+  "quote": {
+    "text": "The physician's highest calling, his only calling, is to make sick people healthy – to heal, as it is termed.",
+    "author": "Dr Samuel Hahnemann",
+    "title": "German physician & the Father of Homeopathy"
+  },
+  "summary": {
+    "total_patients": 5000,
+    "success_rate": 95,
+    "average_rating": 4.9,
+    "conditions_treated": 100
+  }
+}

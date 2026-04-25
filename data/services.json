@@ -1,0 +1,358 @@
+{
+  "title": "Treatment Areas",
+  "subtitle": "Comprehensive homeopathic solutions for a wide range of health conditions",
+  "services": [
+    {
+      "category": "Respiratory System",
+      "image": "https://images.unsplash.com/photo-1743767587847-08c42b31cdec?q=80&w=1955&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "conditions": [
+        "Asthma",
+        "Allergic rhinitis (hay fever)",
+        "Sinusitis",
+        "Bronchitis",
+        "Tonsillitis",
+        "Recurrent colds and coughs",
+        "Otitis (ear infections)"
+      ],
+      "key_benefits": [
+        "Improved breathing capacity",
+        "Enhanced lung function",
+        "Reduced allergic reactions",
+        "Strengthened respiratory immunity",
+        "Decreased frequency of infections"
+      ],
+      "description": "Complete respiratory health solutions for better breathing and immunity. Our treatments address both acute and chronic respiratory conditions naturally, focusing on reducing inflammation, clearing congestion, and strengthening your body's natural defenses against allergens and pathogens."
+    },
+    {
+      "category": "Digestive System",
+      "image": "https://images.unsplash.com/photo-1743767587835-7a80fe384236?q=80&w=1955&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "conditions": [
+        "Gastritis",
+        "Indigestion",
+        "Acidity (heartburn)",
+        "Irritable Bowel Syndrome (IBS)",
+        "Constipation",
+        "Diarrhea",
+        "Piles (hemorrhoids)",
+        "Liver disorders (fatty liver, hepatitis)"
+      ],
+      "key_benefits": [
+        "Improved digestion and nutrient absorption",
+        "Reduced acid reflux and heartburn",
+        "Regular bowel movements",
+        "Balanced gut microbiome",
+        "Healthier liver function"
+      ],
+      "description": "Holistic digestive care that addresses the root cause of gastrointestinal issues. Our approach promotes healthy digestion, reduces inflammation, and supports optimal liver function, helping you achieve lasting digestive comfort without harsh side effects."
+    },
+    {
+      "category": "Skin & Hair",
+      "image": "https://images.unsplash.com/vector-1759822387966-556778384239?q=80&w=2360&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "conditions": [
+        "Eczema",
+        "Psoriasis",
+        "Acne",
+        "Urticaria (hives)",
+        "Fungal infections",
+        "Lichen planus",
+        "Wart removal",
+        "Hair fall and dandruff"
+      ],
+      "key_benefits": [
+        "Clearer, healthier skin",
+        "Reduced inflammation and itching",
+        "Balanced oil production",
+        "Stronger hair follicles",
+        "Long-term management of chronic conditions"
+      ],
+      "description": "Natural solutions for radiant skin and healthy hair. Our treatments work internally to address the underlying causes of skin and hair problems, reducing inflammation, balancing oil production, and promoting healing from within for lasting results."
+    },
+    {
+      "category": "Musculoskeletal System",
+      "image": "https://images.unsplash.com/photo-1615505368758-8a3af2a4c379?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "conditions": [
+        "Arthritis (Rheumatoid, Osteoarthritis, Gout)",
+        "Back pain",
+        "Sciatica",
+        "Muscle cramps and stiffness",
+        "Fibromyalgia",
+        "Bone healing after fractures"
+      ],
+      "key_benefits": [
+        "Reduced joint pain and inflammation",
+        "Improved mobility and flexibility",
+        "Enhanced bone healing",
+        "Decreased muscle stiffness",
+        "Better quality of life"
+      ],
+      "description": "Effective pain management and mobility solutions that target the source of musculoskeletal discomfort. Our approach reduces inflammation, promotes healing, and improves joint function without the side effects of conventional pain medications."
+    },
+    {
+      "category": "Endocrine & Metabolic System",
+      "image": "https://img.freepik.com/free-photo/person-holding-anatomic-heart-model-educational-purpose_23-2149894456.jpg?t=st=1768231319~exp=1768234919~hmac=ee3f8fc4dc10aaff3bc57cfd6216cec78d8ccbe1acaf67eea636f714820bde31",
+      "conditions": [
+        "Diabetes (supportive care)",
+        "Thyroid disorders (hypothyroidism, hyperthyroidism)",
+        "Obesity and metabolism regulation"
+      ],
+      "key_benefits": [
+        "Better hormonal balance",
+        "Improved metabolic function",
+        "Healthier weight management",
+        "Enhanced energy levels",
+        "Reduced medication dependency"
+      ],
+      "description": "Comprehensive support for hormonal and metabolic health. Our treatments help balance endocrine function, regulate metabolism, and provide supportive care for conditions like diabetes and thyroid disorders, working alongside conventional approaches when needed."
+    },
+    {
+      "category": "Female Reproductive Health",
+      "image": "https://images.unsplash.com/vector-1738925310193-63417104888e?q=80&w=2360&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "conditions": [
+        "Irregular periods",
+        "PMS",
+        "PCOS/PCOD",
+        "Fibroids",
+        "Leucorrhea",
+        "Hormonal Disorders",
+        "Infertility",
+        "Lactation problems",
+        "Menopausal Complaints"
+      ],
+      "key_benefits": [
+        "Balanced menstrual cycles",
+        "Reduced PMS symptoms",
+        "Improved hormonal balance",
+        "Enhanced reproductive health",
+        "Easier menopausal transition"
+      ],
+      "description": "Gentle, effective care for all stages of a woman's reproductive life. Our treatments address hormonal imbalances, menstrual irregularities, and menopausal symptoms, supporting your body's natural rhythms and promoting overall reproductive wellness."
+    },
+    {
+      "category": "Male Reproductive Health",
+      "image": "https://img.freepik.com/free-photo/young-latin-man-covering-his-genitals-with-hands-bedroom_839833-27436.jpg?t=st=1768231097~exp=1768234697~hmac=259ba77e1d70874e08ce0afcfa5a53760b680e9f73d06c245cc9489cfbc1ba01",
+      "conditions": ["Prostatitis", "Sexual weakness", "Low sperm count"],
+      "key_benefits": [
+        "Improved prostate health",
+        "Enhanced sexual function",
+        "Better reproductive health",
+        "Increased vitality",
+        "Hormonal balance"
+      ],
+      "description": "Natural support for male reproductive and urinary health. Our approach addresses prostate issues, sexual health concerns, and fertility challenges, helping restore vitality and function through gentle, constitutional treatment."
+    },
+    {
+      "category": "Genitourinary System",
+      "image": "https://img.freepik.com/free-photo/hand-holding-uterus-ovary-model_23-2149351688.jpg?t=st=1768231544~exp=1768235144~hmac=d29f906daae9580661f01b6e69f4bce78af769512940323e86ac787be4428d09",
+      "conditions": [
+        "Urinary tract infections",
+        "Bedwetting",
+        "Kidney stones",
+        "Urinary Incontinence",
+        "Overactive Bladder"
+      ],
+      "key_benefits": [
+        "Reduced urinary frequency and urgency",
+        "Fewer UTIs and infections",
+        "Improved bladder control",
+        "Support for kidney health",
+        "Better sleep without interruptions"
+      ],
+      "description": "Effective solutions for urinary and kidney health concerns. Our treatments help strengthen urinary system function, reduce infections, and improve bladder control, providing relief from uncomfortable symptoms and preventing recurrence."
+    },
+    {
+      "category": "Nervous System & Mental Health",
+      "image": "https://img.freepik.com/free-photo/representation-collective-mind-process-concept-digital-art-style_23-2151657807.jpg?t=st=1768231599~exp=1768235199~hmac=440bafd92ae5d48a7c6a12297f841528a8d4ef4a0b3fb12db7655f0a9a04b0cc",
+      "conditions": [
+        "Depression",
+        "Migraine and chronic headaches",
+        "Insomnia",
+        "Stress-related disorders",
+        "Anxiety and panic attacks",
+        "Neurosis"
+      ],
+      "key_benefits": [
+        "Reduced anxiety and stress",
+        "Improved mood stability",
+        "Better sleep quality",
+        "Fewer headache episodes",
+        "Enhanced emotional resilience"
+      ],
+      "description": "Holistic care for mental wellness and neurological balance. Our approach addresses the root causes of anxiety, depression, insomnia, and stress-related conditions, helping restore emotional equilibrium and improve overall quality of life."
+    },
+    {
+      "category": "Children's Health (Pediatric)",
+      "image": "https://img.freepik.com/free-photo/portrait-female-pediatrician-work_23-2151686708.jpg?t=st=1768231734~exp=1768235334~hmac=eb1a5a25932395a6e39af8aae2a1cccbd394000678141fb21c878d6d852bdaeb",
+      "conditions": [
+        "Recurrent respiratory infections/Flu",
+        "Tonsilitis",
+        "Adenoids",
+        "Teething problems",
+        "Bedwetting",
+        "Learning disorders",
+        "Behavioral issues (e.g., ADHD)"
+      ],
+      "key_benefits": [
+        "Stronger immune system",
+        "Reduced frequency of infections",
+        "Improved behavior and focus",
+        "Better developmental progress",
+        "Gentle, safe treatment options"
+      ],
+      "description": "Gentle, effective pediatric care that supports healthy development and strengthens natural immunity. Our treatments address common childhood ailments, behavioral challenges, and recurrent infections without harsh side effects, promoting optimal growth and wellness."
+    },
+    {
+      "category": "ENT (Ear, Nose, Throat)",
+      "image": "https://img.freepik.com/free-photo/anatomy-drawing-vintage-style_23-2151782870.jpg?t=st=1768231810~exp=1768235410~hmac=38adb8448b1ab76798952eba7998bf3d8ae2d498a7ee8bfa71c9dc7a8d8f3ba8",
+      "conditions": [
+        "Nasal polyps",
+        "Chronic otitis",
+        "Tinnitus",
+        "Recurrent sore throat",
+        "Allergies"
+      ],
+      "key_benefits": [
+        "Reduced ear, nose and throat inflammation",
+        "Fewer recurrent infections",
+        "Improved hearing comfort",
+        "Decreased allergic reactions",
+        "Better sinus drainage"
+      ],
+      "description": "Specialized care for chronic ENT conditions that provides lasting relief from recurrent infections, inflammation, and allergic reactions. Our treatments help restore proper function to the ear, nose, and throat while reducing dependency on antibiotics and other medications."
+    },
+    {
+      "category": "Allergic Disorders",
+      "image": "https://img.freepik.com/free-vector/person-with-cold_23-2148505009.jpg?t=st=1768231909~exp=1768235509~hmac=c028f60389e295b2b23a42b06adae61a2b9ffea1bb0a082561ebdca75b738f9b",
+      "conditions": [
+        "Food allergies",
+        "Skin allergies",
+        "Respiratory allergies (including asthma)"
+      ],
+      "key_benefits": [
+        "Reduced allergic sensitivity",
+        "Fewer allergic reactions",
+        "Decreased medication needs",
+        "Improved tolerance to allergens",
+        "Better quality of life during allergy seasons"
+      ],
+      "description": "Natural desensitization approach that reduces your body's overreaction to allergens. Our treatments help build tolerance to environmental, food, and skin allergens, providing long-term relief from allergic symptoms without side effects."
+    },
+    {
+      "category": "Autoimmune & Chronic Conditions",
+      "image": "https://img.freepik.com/free-photo/healthcare-concept-clinic_23-2151117898.jpg?t=st=1768232024~exp=1768235624~hmac=f4cd299d443ccf346ed5f23599f06ef84274df8635755a1b17bb67ecb249cf2e",
+      "conditions": [
+        "Rheumatoid arthritis",
+        "Lupus (supportive)",
+        "Psoriasis",
+        "Thyroiditis",
+        "Multiple sclerosis (adjunct)"
+      ],
+      "key_benefits": [
+        "Reduced autoimmune activity",
+        "Decreased inflammation",
+        "Slowed disease progression",
+        "Improved quality of life",
+        "Support alongside conventional treatments"
+      ],
+      "description": "Supportive care for autoimmune conditions that helps modulate immune response, reduce inflammation, and improve overall wellbeing. Our approach works alongside conventional treatments to provide comprehensive management of chronic autoimmune disorders."
+    },
+    {
+      "category": "Lifestyle and Geriatric Disorders",
+      "image": "https://img.freepik.com/free-photo/adorable-senior-couple-training-home_23-2148730141.jpg?t=st=1768232086~exp=1768235686~hmac=f88b42f1dc239fef0bc6b454f4dcfaac84b3cd220bf3d99a4a4025c995c1e4c2",
+      "conditions": [
+        "Hypertension (supportive)",
+        "High cholesterol (supportive)",
+        "Geriatric disorders: memory support, osteoarthritis, incontinence",
+        "Chronic joint pains",
+        "Sleep issues",
+        "Bedsores"
+      ],
+      "key_benefits": [
+        "Better management of age-related conditions",
+        "Improved mobility and comfort",
+        "Enhanced cognitive function",
+        "Better cardiovascular health",
+        "Improved sleep quality"
+      ],
+      "description": "Comprehensive care for age-related and lifestyle conditions that supports healthy aging and improves quality of life. Our treatments address multiple concerns simultaneously, from joint health and mobility to cardiovascular support and cognitive function."
+    },
+    {
+      "category": "Obstinate, Incurable, or Supportive Conditions",
+      "image": "https://img.freepik.com/free-photo/women-greeting-new-normal-office-touching-bumping-elbows-keeping-social-distancing-as-safety-prevention-wearing-face-mask-global-pandemic-with-covid19_482257-16359.jpg?t=st=1768232145~exp=1768235745~hmac=26e1d95617e7f56d75424966c4ab134efbd6cb3f119fd07512698990e177f61e",
+      "conditions": [
+        "Cancer (Palliative care for symptom relief)",
+        "HIV/AIDS (symptom management)"
+      ],
+      "key_benefits": [
+        "Reduced treatment side effects",
+        "Improved quality of life",
+        "Better pain management",
+        "Enhanced emotional wellbeing",
+        "Supportive care alongside conventional treatments"
+      ],
+      "description": "Compassionate palliative and supportive care for serious health challenges. Our approach focuses on symptom management, reducing side effects of conventional treatments, and improving overall quality of life during difficult health journeys."
+    }
+  ],
+  "consultation": {
+    "title": "What to Expect During Your Consultation",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Initial Assessment",
+        "description": "Comprehensive discussion about your health history, current symptoms, and wellness goals."
+      },
+      {
+        "step": 2,
+        "title": "Constitutional Analysis",
+        "description": "Detailed evaluation of your physical, mental, and emotional characteristics."
+      },
+      {
+        "step": 3,
+        "title": "Remedy Selection",
+        "description": "Careful selection of the most appropriate homeopathic remedy for your unique case."
+      },
+      {
+        "step": 4,
+        "title": "Treatment Plan",
+        "description": "Creation of a personalized treatment plan with follow-up schedules."
+      }
+    ]
+  },
+  "packages": [
+    {
+      "name": "Wellness Package",
+      "description": "Complete health assessment with 3-month follow-up support",
+      "price": "$450",
+      "includes": [
+        "Initial 2-hour consultation",
+        "2 follow-up sessions",
+        "Remedy supply for 3 months",
+        "Email support"
+      ],
+      "popular": false
+    },
+    {
+      "name": "Family Care Package",
+      "description": "Comprehensive homeopathic care for the entire family",
+      "price": "$800",
+      "includes": [
+        "Consultation for up to 4 family members",
+        "Family health assessment",
+        "Emergency remedy kit",
+        "6 months of support"
+      ],
+      "popular": true
+    },
+    {
+      "name": "Chronic Care Package",
+      "description": "Intensive support for long-term health conditions",
+      "price": "$650",
+      "includes": [
+        "Extended initial consultation",
+        "4 follow-up sessions",
+        "Lifestyle counseling",
+        "24/7 emergency support"
+      ],
+      "popular": false
+    }
+  ]
+}

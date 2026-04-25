@@ -1,0 +1,60 @@
+{
+  "title": "Meet Our Chief Homeopath",
+  "subtitle": "Dedicated to Natural Healing Since 2007",
+  "story": {
+    "heading": "Our Story",
+    "content": "Founded with a passion for natural healing, Revivee Homeo Clinic has been serving the community for nearly two decades. The foundation of the clinic was laid by Dr. Nritiya Dave's father, a passionate homeopath who has devoted over 40 years to the practice of healing through nature.",
+    "heritage": "Inspired by this legacy, Dr. Dave continues the journey with the same compassion and commitment, blending time-tested homeopathic principles with modern health insights to deliver holistic, trustworthy care for every generation.",
+    "mission": "To provide safe, effective, and personalized homeopathic treatment that empowers individuals to achieve optimal health naturally."
+  },
+  "team": [
+    {
+      "name": "Dr. Nritiya Dave",
+      "title": "Chief Homeopath & Clinic Director",
+      "qualification": [
+        "Bachelor of Homeopathic Medicine & Surgery",
+        "PG Diploma in Advanced Homeopathy (UK)"
+      ],
+      "experience": "17+ years",
+      "specialization": "Pediatric Care, Female Health, Respiratory Issues, Mental Health Counselling",
+      "bio": "For Dr. Nritiya Dave, homeopathy isn't just a profession — it's a calling. Over the past 17 years, she has dedicated her life to helping people heal naturally, with care that is as gentle as it is effective.\n\nHer journey began with a deep belief that medicine should treat the person, not just the disease. This philosophy led her to specialise in family medicine, with a strong focus on women's health, children's wellbeing, skin conditions, allergies, and digestive disorders.\n\nPatients value Dr. Dave's ability to listen without rushing, understand their unique story, and design personalised treatments that address the root cause — restoring health from the inside out. Every consultation is a partnership, every treatment a step towards balance, and every recovery a reminder of why she chose this path: to revive health, hope, and quality of life — naturally.",
+      "image": "/images/dr-nritiya-dave.jpg",
+      "achievements": [
+        "Clinical Research Experience",
+        "AI in Healthcare Certified",
+        "Clinical Psychology Certified",
+        "5000+ Successful Treatments",
+        "IHMA Member",
+        "Koppikar Foundation Member"
+      ]
+    }
+  ],
+  "values": [
+    {
+      "title": "Natural Healing",
+      "description": "We believe in the body's innate ability to heal itself when given the right support through natural remedies.",
+      "icon": "leaf"
+    },
+    {
+      "title": "Individualized Care",
+      "description": "Every patient is unique, and so is their treatment plan. We take time to understand your complete health picture.",
+      "icon": "user-check"
+    },
+    {
+      "title": "Scientific Approach",
+      "description": "While rooted in tradition, our practice incorporates the latest research in homeopathic medicine.",
+      "icon": "microscope"
+    },
+    {
+      "title": "Compassionate Service",
+      "description": "We provide a warm, supportive environment where healing can naturally take place.",
+      "icon": "heart"
+    }
+  ],
+  "certifications": [
+    "Council for Homeopathic Certification (CHC)",
+    "North American Society of Homeopaths (NASH)",
+    "International Association for Healthcare Communication",
+    "American Institute of Homeopathy"
+  ]
+}

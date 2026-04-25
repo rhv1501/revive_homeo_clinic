@@ -1,0 +1,148 @@
+{
+  "title": "Contact Us",
+  "subtitle": "We’re Here to Listen, Treat, and Heal - Contact Our Clinic",
+  "clinic_info": {
+    "name": "Revivee Homeo Clinic",
+    "tagline": "Restoring health, Reviving lives",
+    "address": {
+      "street1": "231 Pursaiwalkam High Road,",
+      "street": " Dr Rajivi Towers, 2nd Floor, Shop No 7",
+      "landmark": "Near WELCOME HOTEL",
+      "city": "Chennai",
+      "state": "TN",
+      "zip": "600084",
+      "country": "India",
+      "Location": "https://maps.app.goo.gl/3uxFwRgfe1jckWQe8"
+    },
+    "phone": {
+      "primary": "+91 967 718 3197",
+      "WhatsApp": "+91 967 718 3197"
+    },
+    "email": {
+      "general": "info@reviveehomeoclinic.com",
+      "appointments": "dr.nritiya@gmail.com",
+      "support": "support@reviveehomeoclinic.com"
+    },
+    "website": "www.reviveehomeoclinic.com",
+    "social_media": {
+      "facebook": "https://www.facebook.com/share/1QVmWoWHEv/",
+      "instagram": "https://www.instagram.com/revivee_homeo_clinic?igsh=ODRlOHhmbnhqaXlh",
+      "youtube": "https://youtube.com/@reviveehomeoclinic?si=vCZgeJ8UY-hfY0PQ"
+    }
+  },
+  "hours": {
+    "monday": "10:00 AM - 8:00 PM",
+    "tuesday": "10:00 AM - 8:00 PM",
+    "wednesday": "10:00 AM - 8:00 PM",
+    "thursday": "10:00 AM - 8:00 PM",
+    "friday": "10:00 AM - 8:00 PM",
+    "saturday": "10:00 AM - 8:00 PM",
+    "sunday": "Closed"
+  },
+
+  "contact_form": {
+    "title": "Schedule Your Consultation",
+    "description": "Fill out the form below and we'll get back to you within 24 hours to schedule your appointment.",
+    "fields": [
+      {
+        "name": "firstName",
+        "label": "First Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your first name"
+      },
+      {
+        "name": "lastName",
+        "label": "Last Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your last name"
+      },
+      {
+        "name": "email",
+        "label": "Email Address",
+        "type": "email",
+        "required": true,
+        "placeholder": "your.email@example.com"
+      },
+      {
+        "name": "phone",
+        "label": "Phone Number",
+        "type": "tel",
+        "required": true,
+        "placeholder": "(206) 555-0123"
+      },
+      {
+        "name": "age",
+        "label": "Age",
+        "type": "number",
+        "required": false,
+        "placeholder": "Your age"
+      },
+      {
+        "name": "consultationType",
+        "label": "Type of Consultation",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Initial Consultation",
+          "Follow-up Appointment",
+          "Acute Care",
+          "Constitutional Treatment",
+          "Pediatric Consultation",
+          "Women's Health",
+          "Mental Health Support"
+        ]
+      },
+      {
+        "name": "preferredDate",
+        "label": "Preferred Date",
+        "type": "date",
+        "required": false
+      },
+      {
+        "name": "preferredTime",
+        "label": "Preferred Time",
+        "type": "select",
+        "required": false,
+        "options": [
+          "Morning (9:00 AM - 12:00 PM)",
+          "Afternoon (12:00 PM - 3:00 PM)",
+          "Evening (3:00 PM - 6:00 PM)"
+        ]
+      },
+      {
+        "name": "healthConcern",
+        "label": "Primary Health Concern",
+        "type": "textarea",
+        "required": true,
+        "placeholder": "Please briefly describe your main health concern or reason for seeking homeopathic treatment..."
+      },
+      {
+        "name": "previousTreatment",
+        "label": "Previous Homeopathic Treatment",
+        "type": "select",
+        "required": false,
+        "options": [
+          "No previous experience",
+          "Some experience with homeopathy",
+          "Extensive experience with homeopathy"
+        ]
+      },
+      {
+        "name": "insurance",
+        "label": "Insurance Information",
+        "type": "text",
+        "required": false,
+        "placeholder": "Insurance provider (if applicable)"
+      },
+      {
+        "name": "message",
+        "label": "Additional Message",
+        "type": "textarea",
+        "required": false,
+        "placeholder": "Any additional information you'd like us to know..."
+      }
+    ]
+  }
+}
