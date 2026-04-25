@@ -16,6 +16,8 @@ import {
   generateKeywords,
 } from "../utils/seoUtils";
 
+import BookingGuide from "../components/home/BookingGuide";
+
 const FAQSection = dynamic(() => import("../components/home/FAQSection"), {
   ssr: true,
   loading: () => <div className="h-96 w-full animate-pulse bg-sage-50 rounded-[3rem] my-20" />
@@ -156,6 +158,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <BookingGuide />
 
       {/* Integrated Brand Identity: The Revive Edge & Leadership */}
       <section className="py-24 bg-linear-to-b from-white to-sage-50/30 overflow-hidden">
