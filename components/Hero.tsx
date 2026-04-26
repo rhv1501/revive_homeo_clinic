@@ -8,7 +8,6 @@ interface HeroProps {
   titleClasses?: string;
   subtitleClasses?: string;
   containerClasses?: string;
-  eyebrow?: string;
   ctaHref?: string;
   ctaLabel?: string;
 }
@@ -20,7 +19,6 @@ const Hero: React.FC<HeroProps> = ({
   titleClasses = "section-heading-lg",
   subtitleClasses = "section-lead max-w-3xl mx-auto mt-6",
   containerClasses = "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
-  eyebrow,
   ctaHref,
   ctaLabel,
 }) => {
@@ -34,12 +32,6 @@ const Hero: React.FC<HeroProps> = ({
       </div>
       <div className={`${containerClasses} relative z-10`}>
         <div className="mx-auto flex max-w-4xl flex-col items-center text-center animate-slide-up">
-          <div className="inline-flex items-center gap-3 rounded-full border border-sage-200 bg-white/80 px-4 py-2 shadow-sm backdrop-blur-sm">
-            <span className="h-2 w-2 rounded-full bg-terracotta-500" />
-            <span className="text-[10px] font-bold uppercase tracking-[0.32em] text-sage-700">
-              {eyebrow ?? "Revivee Homeo Clinic"}
-            </span>
-          </div>
           <h1 className={`${titleClasses} mt-6`}>{title}</h1>
           <p className={subtitleClasses}>{subtitle}</p>
           {ctaHref && ctaLabel ? (

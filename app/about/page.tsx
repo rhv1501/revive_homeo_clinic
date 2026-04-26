@@ -14,18 +14,11 @@ const AboutPage = () => {
       {/* Immersive Hero Section */}
       <section className="relative pt-32 pb-20 md:pt-44 md:pb-28 overflow-hidden premium-gradient">
         <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-sage-100/40 rounded-full blur-[120px] -mr-48 -mt-48" />
-          <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-terracotta-50/50 rounded-full blur-[100px] -ml-24 -mb-24" />
+          <div className="absolute top-0 right-0 w-150 h-150 bg-sage-100/40 rounded-full blur-[120px] -mr-48 -mt-48" />
+          <div className="absolute bottom-0 left-0 w-125 h-125 bg-terracotta-50/50 rounded-full blur-[100px] -ml-24 -mb-24" />
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-          <div className="inline-flex items-center gap-3 rounded-full border border-sage-200 bg-white/90 px-4 py-2 shadow-sm mb-8 animate-slide-up">
-            <span className="flex h-2 w-2 rounded-full bg-terracotta-500 animate-pulse" />
-            <span className="text-[10px] font-bold uppercase tracking-[0.3em] text-sage-800">
-              A Legacy of Natural Healing
-            </span>
-          </div>
-
           <h1 className="text-4xl md:text-7xl lg:text-8xl font-playfair font-bold text-sage-900 leading-[1.1] tracking-tight mb-8 animate-slide-up [animation-delay:200ms]">
             Where Heritage <br />
             <span className="italic text-terracotta-600">Meets Modern Care.</span>

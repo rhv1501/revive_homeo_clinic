@@ -48,7 +48,7 @@ const Footer: React.FC = () => {
                 REVIVEE
               </span>
             </Link>
-            <p className="text-sage-200/90 text-sm leading-relaxed max-w-xs">
+            <p className="text-sage-200/90 text-base leading-relaxed max-w-xs">
               Natural healing through advanced constitutional homeopathy.
               Dedicated to holistic care for chronic and acute conditions since
               2007.
@@ -150,13 +150,24 @@ const Footer: React.FC = () => {
                 <p className="text-xs font-bold uppercase tracking-widest text-terracotta-600">
                   Location
                 </p>
-                <p className="text-sage-100 text-sm">
-                  {contactData.clinic_info.address.street1}
+                <p className="text-sage-100 text-sm leading-relaxed">
+                  {contactData.clinic_info.address.street1}{" "}
+                  {contactData.clinic_info.address.street}
                 </p>
-                <p className="text-sage-200 text-xs">
+                <p className="text-sage-200 text-sm leading-relaxed">
+                  {contactData.clinic_info.address.landmark},{" "}
                   {contactData.clinic_info.address.city},{" "}
-                  {contactData.clinic_info.address.state}
+                  {contactData.clinic_info.address.state}{" "}
+                  {contactData.clinic_info.address.zip}
                 </p>
+                <a
+                  href={contactData.clinic_info.address.Location}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex pt-1 text-sm font-bold text-cream-50 hover:text-terracotta-300 transition-colors"
+                >
+                  Open in Google Maps
+                </a>
               </div>
               <div className="space-y-1">
                 <p className="text-xs font-bold uppercase tracking-widest text-terracotta-600">
@@ -165,7 +176,7 @@ const Footer: React.FC = () => {
                 <p className="text-sage-100 text-sm">
                   Mon - Sat: 10:00 AM - 8:00 PM
                 </p>
-                <p className="text-sage-200 text-xs italic">
+                <p className="text-sage-200 text-sm italic">
                   Sunday: Consultations via Appointment Only
                 </p>
               </div>
@@ -180,11 +191,11 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="border-t border-sage-700 pt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 relative z-10">
-          <p className="text-sage-600 text-xs font-medium uppercase tracking-widest text-center md:text-left">
+          <p className="text-sage-600 text-sm font-medium uppercase tracking-widest text-center md:text-left">
             © {currentYear} Revivee Homeo Clinic. Personalized homeopathic care
             in Chennai.
           </p>
-          <div className="flex space-x-6 text-xs text-sage-600 font-medium">
+          <div className="flex space-x-6 text-sm text-sage-600 font-medium">
             <a
               href={`mailto:${contactData.clinic_info.email.general}`}
               className="hover:text-sage-200"

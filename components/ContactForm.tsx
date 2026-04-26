@@ -20,9 +20,9 @@ const ContactFormInner = () => {
   useEffect(() => {
     const interest = searchParams.get("interest");
     if (interest) {
-      setFormData(prev => ({
+      setFormData((prev) => ({
         ...prev,
-        message: `I am interested in exploring ${interest} treatment alternatives and would like to schedule a primary consultation session.`
+        message: `I am interested in exploring ${interest} treatment alternatives and would like to schedule a primary consultation session.`,
       }));
     }
   }, [searchParams]);
@@ -53,8 +53,8 @@ const ContactFormInner = () => {
       if (!response.ok) throw new Error("Failed");
 
       // Set submission flag for Thank You page
-      if (typeof window !== 'undefined') {
-        sessionStorage.setItem('formSubmitted', 'true');
+      if (typeof window !== "undefined") {
+        sessionStorage.setItem("formSubmitted", "true");
       }
 
       router.push("/thank-you");
@@ -69,23 +69,36 @@ const ContactFormInner = () => {
   };
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
+    e: React.ChangeEvent<
+      HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
+    >,
   ) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
   return (
     <div className="site-card relative overflow-hidden p-6 sm:p-8 md:p-12 lg:p-14">
-      <div className="absolute top-0 right-0 flex h-24 w-24 items-center justify-center rounded-bl-[2rem] bg-sage-50 text-2xl sm:h-32 sm:w-32 sm:text-3xl">🌿</div>
-      <form onSubmit={handleSubmit} className="relative z-10 space-y-7 sm:space-y-8">
+      <div className="absolute top-0 right-0 flex h-24 w-24 items-center justify-center rounded-bl-4xl bg-sage-50 text-2xl sm:h-32 sm:w-32 sm:text-3xl">
+        🌿
+      </div>
+      <form
+        onSubmit={handleSubmit}
+        className="relative z-10 space-y-7 sm:space-y-8"
+      >
         <div className="space-y-6">
-          <h4 className="text-2xl font-playfair font-bold text-sage-900 sm:text-3xl">Inquiry Questionnaire</h4>
-          <p className="max-w-2xl text-sm font-semibold tracking-wide text-sage-700">Fields marked with (*) are required for effective case analysis.</p>
+          <h4 className="text-2xl font-playfair font-bold text-sage-900 sm:text-3xl">
+            Inquiry Questionnaire
+          </h4>
+          <p className="max-w-2xl text-base font-semibold tracking-wide text-sage-700">
+            Fields marked with (*) are required for effective case analysis.
+          </p>
         </div>
 
         <div className="grid grid-cols-1 gap-5 md:grid-cols-2 md:gap-6 lg:gap-8">
           <div className="space-y-2">
-            <label className="text-[10px] font-bold text-sage-600 uppercase tracking-widest ml-1">Patient Name *</label>
+            <label className="text-xs font-bold text-sage-600 uppercase tracking-widest ml-1 sm:text-sm">
+              Patient Name *
+            </label>
             <input
               type="text"
               name="name"
@@ -97,7 +110,9 @@ const ContactFormInner = () => {
             />
           </div>
           <div className="space-y-2">
-            <label className="text-[10px] font-bold text-sage-600 uppercase tracking-widest ml-1">Contact Email</label>
+            <label className="text-xs font-bold text-sage-600 uppercase tracking-widest ml-1 sm:text-sm">
+              Contact Email
+            </label>
             <input
               type="email"
               name="email"
@@ -111,7 +126,9 @@ const ContactFormInner = () => {
 
         <div className="grid grid-cols-1 gap-5 md:grid-cols-2 md:gap-6 lg:gap-8">
           <div className="space-y-2">
-            <label className="text-[10px] font-bold text-sage-600 uppercase tracking-widest ml-1">Phone Number *</label>
+            <label className="text-xs font-bold text-sage-600 uppercase tracking-widest ml-1 sm:text-sm">
+              Phone Number *
+            </label>
             <input
               type="tel"
               name="phone"
@@ -123,7 +140,9 @@ const ContactFormInner = () => {
             />
           </div>
           <div className="space-y-2">
-            <label className="text-[10px] font-bold text-sage-600 uppercase tracking-widest ml-1">Age *</label>
+            <label className="text-xs font-bold text-sage-600 uppercase tracking-widest ml-1 sm:text-sm">
+              Age *
+            </label>
             <input
               type="number"
               name="age"
@@ -137,7 +156,9 @@ const ContactFormInner = () => {
         </div>
 
         <div className="space-y-2">
-          <label className="text-[10px] font-bold text-sage-600 uppercase tracking-widest ml-1">Nature of Inquiry / Main Symptoms *</label>
+          <label className="text-xs font-bold text-sage-600 uppercase tracking-widest ml-1 sm:text-sm">
+            Nature of Inquiry / Main Symptoms *
+          </label>
           <textarea
             name="message"
             value={formData.message}
@@ -150,7 +171,9 @@ const ContactFormInner = () => {
         </div>
 
         {submitStatus.type && (
-          <div className={`rounded-2xl p-5 text-center text-sm font-bold animate-fade-in sm:p-6 ${submitStatus.type === 'success' ? 'bg-sage-100 text-sage-800' : 'bg-terracotta-50 text-terracotta-800'}`}>
+          <div
+            className={`rounded-2xl p-5 text-center text-sm font-bold animate-fade-in sm:p-6 ${submitStatus.type === "success" ? "bg-sage-100 text-sage-800" : "bg-terracotta-50 text-terracotta-800"}`}
+          >
             {submitStatus.message}
           </div>
         )}
@@ -158,9 +181,11 @@ const ContactFormInner = () => {
         <button
           type="submit"
           disabled={isSubmitting}
-          className="w-full btn-premium py-4 sm:py-5 text-xs font-bold tracking-[0.16em] uppercase disabled:opacity-50"
+          className="w-full btn-premium py-4 sm:py-5 text-sm sm:text-base font-bold tracking-[0.16em] uppercase disabled:opacity-50"
         >
-          {isSubmitting ? "Processing Inquiry..." : "Confirm My Inquiry Session"}
+          {isSubmitting
+            ? "Processing Inquiry..."
+            : "Confirm My Inquiry Session"}
         </button>
       </form>
     </div>
@@ -169,7 +194,11 @@ const ContactFormInner = () => {
 
 const ContactForm = () => {
   return (
-    <Suspense fallback={<div className="h-96 w-full animate-pulse bg-sage-50 rounded-[3rem]" />}>
+    <Suspense
+      fallback={
+        <div className="h-96 w-full animate-pulse bg-sage-50 rounded-[3rem]" />
+      }
+    >
       <ContactFormInner />
     </Suspense>
   );

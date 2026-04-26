@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import clinicInterior from "../../assets/clinic_interior.png";
 import onlineConsultation from "../../assets/online_hero.png";
 
 const BookingGuide = () => {
@@ -43,7 +42,10 @@ const BookingGuide = () => {
   };
 
   return (
-    <section className="py-24 bg-cream-50/50 overflow-hidden" id="booking-guide">
+    <section
+      className="py-24 bg-cream-50/50 overflow-hidden"
+      id="booking-guide"
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-20">
           <h2 className="section-kicker mb-4">Start Your Healing</h2>
@@ -51,23 +53,24 @@ const BookingGuide = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20">
-          {/* Pathway 1: In-Clinic */}
           <div className="group space-y-10 animate-fade-in">
-            <div className="relative h-[350px] rounded-[3rem] overflow-hidden shadow-2xl border-4 border-white">
+            <div className="relative aspect-square rounded-[3rem] overflow-hidden shadow-2xl border-4 border-white bg-white">
               <Image
-                src={clinicInterior}
-                alt="Revivee Homeo Clinic Interior Chennai"
+                src="/dr_nritya.jpeg"
+                alt="Dr. Nritiya Dave consultation portrait"
                 fill
                 priority
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 600px"
-                className="object-cover transition-transform duration-1000 group-hover:scale-110"
+                className="object-cover object-center transition-transform duration-1000 group-hover:scale-105"
               />
-              <div className="absolute inset-0 bg-linear-to-t from-sage-900/90 via-sage-900/20 to-transparent" />
+              <div className="absolute inset-0 bg-linear-to-t from-sage-900/85 via-sage-900/20 to-transparent" />
               <div className="absolute bottom-8 left-8 right-8">
-                <div className="inline-block px-4 py-1.5 bg-terracotta-600 text-white text-[10px] font-bold uppercase tracking-widest rounded-full mb-3">
-                  Chennai Clinic
+                <div className="inline-block rounded-full bg-terracotta-600 px-4 py-1.5 text-[10px] font-bold uppercase tracking-widest text-white mb-3">
+                  In Clinic
                 </div>
-                <h4 className="text-3xl font-playfair font-bold text-white">In-Person Excellence</h4>
+                <h4 className="text-3xl font-playfair font-bold text-white">
+                  Warm, direct consultations
+                </h4>
               </div>
             </div>
 
@@ -77,8 +80,12 @@ const BookingGuide = () => {
                   <span className="absolute left-[-2.1rem] top-0 text-5xl font-playfair font-black text-sage-100 transition-colors group-hover/step:text-terracotta-100 selection:bg-transparent">
                     {step.id}
                   </span>
-                  <h5 className="text-xl font-bold text-sage-900 mb-2">{step.title}</h5>
-                  <p className="text-sage-600 leading-relaxed text-sm max-w-md">{step.desc}</p>
+                  <h5 className="text-xl font-bold text-sage-900 mb-2">
+                    {step.title}
+                  </h5>
+                  <p className="text-sage-600 leading-relaxed text-sm max-w-md">
+                    {step.desc}
+                  </p>
                 </div>
               ))}
             </div>
@@ -93,23 +100,24 @@ const BookingGuide = () => {
             </div>
           </div>
 
-          {/* Pathway 2: Online */}
           <div className="group space-y-10 animate-fade-in delay-200">
-            <div className="relative h-[350px] rounded-[3rem] overflow-hidden shadow-2xl border-4 border-white">
+            <div className="relative aspect-square rounded-[3rem] overflow-hidden shadow-2xl border-4 border-white bg-white">
               <Image
                 src={onlineConsultation}
                 alt="Virtual Homeopathy Consultation"
                 fill
                 priority
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 600px"
-                className="object-cover transition-transform duration-1000 group-hover:scale-110"
+                className="object-cover object-center transition-transform duration-1000 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-linear-to-t from-terracotta-900/90 via-terracotta-900/20 to-transparent" />
               <div className="absolute bottom-8 left-8 right-8">
                 <div className="inline-block px-4 py-1.5 bg-sage-800 text-white text-[10px] font-bold uppercase tracking-widest rounded-full mb-3">
                   Global Access
                 </div>
-                <h4 className="text-3xl font-playfair font-bold text-white">Virtual Concierge</h4>
+                <h4 className="text-3xl font-playfair font-bold text-white">
+                  Virtual Concierge
+                </h4>
               </div>
             </div>
 
@@ -119,8 +127,12 @@ const BookingGuide = () => {
                   <span className="absolute left-[-2.1rem] top-0 text-5xl font-playfair font-black text-terracotta-50 transition-colors group-hover/step:text-sage-100 selection:bg-transparent">
                     {step.id}
                   </span>
-                  <h5 className="text-xl font-bold text-sage-900 mb-2">{step.title}</h5>
-                  <p className="text-sage-600 leading-relaxed text-sm max-w-md">{step.desc}</p>
+                  <h5 className="text-xl font-bold text-sage-900 mb-2">
+                    {step.title}
+                  </h5>
+                  <p className="text-sage-600 leading-relaxed text-sm max-w-md">
+                    {step.desc}
+                  </p>
                 </div>
               ))}
             </div>

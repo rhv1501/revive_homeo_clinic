@@ -7,8 +7,16 @@ import ScrollToTop from "../components/ScrollToTop";
 import FloatingActionButton from "../components/FloatingActionButton";
 import { BUSINESS_INFO, PAGE_DESCRIPTIONS } from "../utils/seoUtils";
 
-const playfair = Cormorant_Garamond({ subsets: ["latin"], weight: ["400", "700"], variable: "--font-playfair" });
-const inter = Manrope({ subsets: ["latin"], weight: ["400", "500", "600", "700", "800"], variable: "--font-inter" });
+const playfair = Cormorant_Garamond({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  variable: "--font-playfair",
+});
+const inter = Manrope({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800"],
+  variable: "--font-inter",
+});
 
 export const metadata: Metadata = {
   title: {
@@ -16,7 +24,8 @@ export const metadata: Metadata = {
     template: `%s | ${BUSINESS_INFO.name}`,
   },
   description: PAGE_DESCRIPTIONS.home,
-  keywords: "homeopathy chennai, natural treatment psoriasis, pcos homeopathy, chronic pain management, pediatric homeopathy, best homeopathic doctor",
+  keywords:
+    "homeopathy chennai, natural treatment psoriasis, pcos homeopathy, chronic pain management, pediatric homeopathy, best homeopathic doctor",
   authors: [{ name: "Dr. Nritiya Dave" }],
   creator: "Revivee Homeo Clinic",
   publisher: "Revivee Homeo Clinic",
@@ -60,53 +69,54 @@ export default function RootLayout({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "MedicalBusiness",
-    "name": BUSINESS_INFO.name,
-    "image": "https://www.revivehomeoclinic.com/assets/logo_1.png",
+    name: BUSINESS_INFO.name,
+    image: "https://www.revivehomeoclinic.com/assets/logo_1.png",
     "@id": "https://www.revivehomeoclinic.com",
-    "url": "https://www.revivehomeoclinic.com",
-    "telephone": "+919840439401",
-    "priceRange": "$$",
-    "address": {
+    url: "https://www.revivehomeoclinic.com",
+    telephone: "+919840439401",
+    priceRange: "$$",
+    address: {
       "@type": "PostalAddress",
-      "streetAddress": "New No. 11, Old No. 2, 6th Ave, Block F, Anna Nagar East",
-      "addressLocality": "Chennai",
-      "postalCode": "600102",
-      "addressRegion": "Tamil Nadu",
-      "addressCountry": "IN"
+      streetAddress:
+        "231 Purasawalkam High Road, Dr Rajivi Towers, 2nd Floor, Shop No 7, Near Welcome Hotel",
+      addressLocality: "Chennai",
+      postalCode: "600084",
+      addressRegion: "Tamil Nadu",
+      addressCountry: "IN",
     },
-    "geo": {
+    geo: {
       "@type": "GeoCoordinates",
-      "latitude": 13.085939,
-      "longitude": 80.254125
+      latitude: 13.085939,
+      longitude: 80.245452,
     },
-    "openingHoursSpecification": {
+    openingHoursSpecification: {
       "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
+      dayOfWeek: [
         "Monday",
         "Tuesday",
         "Wednesday",
         "Thursday",
         "Friday",
-        "Saturday"
+        "Saturday",
       ],
-      "opens": "10:00",
-      "closes": "20:30"
+      opens: "10:00",
+      closes: "20:30",
     },
-    "medicalSpecialty": [
+    medicalSpecialty: [
       "HomeopathicMedicine",
       "SkinMedicine",
       "PediatricMedicine",
-      "WomenHealth"
+      "WomenHealth",
     ],
-    "founder": {
+    founder: {
       "@type": "Person",
-      "name": "Dr. Nritiya Dave"
-    }
+      name: "Dr. Nritiya Dave",
+    },
   };
 
   return (
-    <html 
-      lang="en" 
+    <html
+      lang="en"
       className={`${playfair.variable} ${inter.variable}`}
       suppressHydrationWarning
       data-scroll-behavior="smooth"
@@ -119,7 +129,10 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body className="antialiased font-inter text-sage-900 page-shell" suppressHydrationWarning>
+      <body
+        className="antialiased font-inter text-sage-900 page-shell"
+        suppressHydrationWarning
+      >
         <ScrollToTop />
         <div className="flex flex-col min-h-screen">
           <Navbar />

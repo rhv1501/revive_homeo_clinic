@@ -20,17 +20,19 @@ import BookingGuide from "../components/home/BookingGuide";
 
 const FAQSection = dynamic(() => import("../components/home/FAQSection"), {
   ssr: true,
-  loading: () => <div className="h-96 w-full animate-pulse bg-sage-50 rounded-[3rem] my-20" />
+  loading: () => (
+    <div className="h-96 w-full animate-pulse bg-sage-50 rounded-[3rem] my-20" />
+  ),
 });
 
 export const metadata: Metadata = {
   title: "Revivee Homeo Clinic | Best Homeopathy Clinic in Chennai",
   description:
-    "Experience premium, holistic healing at Revivee Homeo Clinic, the best homeopathy clinic in Chennai. Specializing in Psoriasis, PCOS, Chronic Pain, and Pediatric care since 2007.",
+    "Experience premium, holistic healing at Revivee Homeo Clinic in Purasawalkam, Chennai. Specializing in psoriasis, PCOS, chronic pain, and pediatric care since 2007.",
   keywords: generateKeywords(BASE_KEYWORDS, [
     ...PAGE_KEYWORDS.home,
     "best homeopathy clinic chennai",
-    "homeopathic doctor anna nagar",
+    "homeopathic doctor purasawalkam",
     "natural healing psoriasis",
     "pcos treatment homeopathy",
   ]),
@@ -167,7 +169,10 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="section-kicker mb-4">The Revive Edge</h2>
             <h3 className="section-heading max-w-2xl mx-auto">
-              Clinical Excellence Meets <span className="italic text-terracotta-600">Empathetic Care.</span>
+              Clinical Excellence Meets{" "}
+              <span className="italic text-terracotta-600">
+                Empathetic Care.
+              </span>
             </h3>
           </div>
 
@@ -181,19 +186,69 @@ export default function Home() {
                 <div className="relative z-10">
                   <div className="w-14 h-14 rounded-2xl bg-sage-900 flex items-center justify-center text-white mb-6 group-hover:bg-terracotta-600 transition-colors duration-500">
                     {feature.icon === "leaf" && (
-                      <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m12.728 0l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707-.707M6.343 6.343l-.707-.707"/></svg>
+                      <svg
+                        className="w-7 h-7"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="1.5"
+                          d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m12.728 0l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707-.707M6.343 6.343l-.707-.707"
+                        />
+                      </svg>
                     )}
                     {feature.icon === "user" && (
-                      <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
+                      <svg
+                        className="w-7 h-7"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="1.5"
+                          d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+                        />
+                      </svg>
                     )}
                     {feature.icon === "heart" && (
-                      <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+                      <svg
+                        className="w-7 h-7"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="1.5"
+                          d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                        />
+                      </svg>
                     )}
                     {feature.icon === "award" && (
-                      <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/></svg>
+                      <svg
+                        className="w-7 h-7"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="1.5"
+                          d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
+                        />
+                      </svg>
                     )}
                   </div>
-                  <h4 className="text-xl font-bold text-sage-900 mb-3 group-hover:text-sage-800">{feature.title}</h4>
+                  <h4 className="text-xl font-bold text-sage-900 mb-3 group-hover:text-sage-800">
+                    {feature.title}
+                  </h4>
                   <p className="text-sm leading-relaxed text-sage-600">
                     {feature.description}
                   </p>
@@ -204,12 +259,12 @@ export default function Home() {
 
           <div className="relative rounded-[3rem] bg-sage-900 overflow-hidden shadow-2xl">
             <div className="absolute inset-0 opacity-10">
-              <div className="absolute top-0 right-0 w-[400px] h-[400px] bg-terracotta-500 rounded-full blur-[100px]" />
-              <div className="absolute bottom-0 left-0 w-[300px] h-[300px] bg-white rounded-full blur-[80px]" />
+              <div className="absolute top-0 right-0 w-100 h-100 bg-terracotta-500 rounded-full blur-[100px]" />
+              <div className="absolute bottom-0 left-0 w-75 h-75 bg-white rounded-full blur-[80px]" />
             </div>
 
             <div className="relative z-10 grid lg:grid-cols-[0.9fr_1.1fr]">
-              <div className="relative h-[450px] lg:h-auto overflow-hidden">
+              <div className="relative h-112.5 lg:h-auto overflow-hidden">
                 <Image
                   src={drNritiya}
                   alt="Dr. Nritiya Dave"
@@ -222,33 +277,45 @@ export default function Home() {
                   <div className="bg-terracotta-600 text-white text-[10px] font-bold uppercase tracking-[0.3em] px-4 py-2 rounded-full inline-block mb-3">
                     Chief Homeopath
                   </div>
-                  <h4 className="text-3xl font-playfair font-bold text-white tracking-wide">Dr. Nritiya Dave</h4>
+                  <h4 className="text-3xl font-playfair font-bold text-white tracking-wide">
+                    Dr. Nritiya Dave
+                  </h4>
                 </div>
               </div>
 
               <div className="p-8 md:p-16 lg:p-20 flex flex-col justify-center">
-                <svg className="w-12 h-12 text-terracotta-600 mb-8 opacity-40" fill="currentColor" viewBox="0 0 24 24">
+                <svg
+                  className="w-12 h-12 text-terracotta-600 mb-8 opacity-40"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
                   <path d="M14.017 21L14.017 18C14.017 16.8954 14.9124 16 16.017 16H19.017C20.1216 16 21.017 16.8954 21.017 18V21M14.017 21H21.017M14.017 21C12.9124 21 12.017 20.1046 12.017 19V12C12.017 10.8954 12.9124 10 14.017 10H17.017C18.1216 10 19.017 10.8954 19.017 12V15M3.017 21L3.017 18C3.017 16.8954 3.91243 16 5.01695 16H8.01695C9.12152 16 10.017 16.8954 10.017 18V21M3.017 21H10.017M3.017 21C1.91243 21 1.01695 20.1046 1.01695 19V12C1.01695 10.8954 1.91243 10 3.017 10H6.01695C7.12152 10 8.01695 10.8954 8.01695 12V15" />
                 </svg>
-                
+
                 <p className="text-xl md:text-2xl leading-relaxed text-sage-100 font-playfair italic mb-12">
-                  &quot;Our goal is not just to suppress disease, but to revitalize the body&apos;s inherent vital force so that it can heal itself.&quot;
+                  &quot;Our goal is not just to suppress disease, but to
+                  revitalize the body&apos;s inherent vital force so that it can
+                  heal itself.&quot;
                 </p>
 
                 <div className="grid grid-cols-2 gap-8 mb-12">
                   <div>
                     <p className="text-4xl font-bold text-white mb-2">17+</p>
-                    <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-sage-600">Clinical Experience</p>
+                    <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-sage-600">
+                      Clinical Experience
+                    </p>
                   </div>
                   <div>
                     <p className="text-4xl font-bold text-white mb-2">5000+</p>
-                    <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-sage-600">Happy Patients</p>
+                    <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-sage-600">
+                      Happy Patients
+                    </p>
                   </div>
                 </div>
 
                 <Link
                   href="/about"
-                  className="btn-premium inline-flex py-5 text-center justify-center tracking-[0.1em]"
+                  className="btn-premium inline-flex py-5 text-center justify-center tracking-widest"
                 >
                   Read The Full Story
                 </Link>

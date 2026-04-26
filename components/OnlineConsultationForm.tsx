@@ -34,13 +34,18 @@ const OnlineConsultationForm: React.FC = () => {
   });
 
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submitStatus, setSubmitStatus] = useState<{ type: "success" | "error" | null; message: string }>({
+  const [submitStatus, setSubmitStatus] = useState<{
+    type: "success" | "error" | null;
+    message: string;
+  }>({
     type: null,
     message: "",
   });
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
+    e: React.ChangeEvent<
+      HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
+    >,
   ) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
@@ -65,15 +70,16 @@ const OnlineConsultationForm: React.FC = () => {
       if (!response.ok) throw new Error("Failed");
 
       // Set submission flag for Thank You page
-      if (typeof window !== 'undefined') {
-        sessionStorage.setItem('formSubmitted', 'true');
+      if (typeof window !== "undefined") {
+        sessionStorage.setItem("formSubmitted", "true");
       }
 
       router.push("/thank-you");
     } catch {
       setSubmitStatus({
         type: "error",
-        message: "We could not send your request right now. Please call us directly or try again in a moment.",
+        message:
+          "We could not send your request right now. Please call us directly or try again in a moment.",
       });
     } finally {
       setIsSubmitting(false);
@@ -86,23 +92,32 @@ const OnlineConsultationForm: React.FC = () => {
       <div className="hidden sm:block absolute -top-6 -right-6 h-24 w-24 rounded-full bg-terracotta-100/40 blur-2xl group-hover:bg-terracotta-200/50 transition-colors duration-500" />
       <div className="hidden sm:block absolute -bottom-10 -left-10 h-32 w-32 rounded-full bg-sage-100/40 blur-3xl group-hover:bg-sage-200/50 transition-colors duration-500" />
 
-      <form onSubmit={handleSubmit} className="relative z-10 glass-card space-y-6 sm:space-y-7 p-5 sm:p-8 md:space-y-8 md:p-10 lg:p-12 overflow-hidden">
+      <form
+        onSubmit={handleSubmit}
+        className="relative z-10 glass-card space-y-6 sm:space-y-7 p-5 sm:p-8 md:space-y-8 md:p-10 lg:p-12 overflow-hidden"
+      >
         <div className="relative space-y-3">
           <div className="flex items-center gap-3">
             <span className="h-px w-8 bg-terracotta-400" />
-            <h3 className="section-kicker !text-terracotta-600">Digital Concierge</h3>
+            <h3 className="section-kicker text-terracotta-600!">
+              Digital Concierge
+            </h3>
           </div>
-          <h2 className="text-2xl sm:text-3xl font-playfair font-bold text-sage-900 sm:text-4xl leading-tight">
-            Reserve your <span className="italic text-terracotta-600">exclusive</span> slot
+          <h2 className="text-[2rem] sm:text-4xl font-playfair font-bold text-sage-900 leading-tight">
+            Reserve your{" "}
+            <span className="italic text-terracotta-600">exclusive</span> slot
           </h2>
-          <p className="max-w-2xl text-sm sm:text-base leading-relaxed text-sage-600 font-medium">
-            Take the first step towards healing. Provide a few details, and our team will coordinate a personalized consultation session for you.
+          <p className="max-w-2xl text-base sm:text-base leading-relaxed text-sage-600 font-medium">
+            Take the first step towards healing. Provide a few details, and our
+            team will coordinate a personalized consultation session for you.
           </p>
         </div>
 
         <div className="grid gap-6 md:grid-cols-2">
           <div className="space-y-2">
-            <label className="ml-1 text-[10px] font-bold uppercase tracking-[0.24em] text-sage-800">Full Name *</label>
+            <label className="ml-1 text-xs sm:text-[10px] font-bold uppercase tracking-[0.24em] text-sage-800">
+              Full Name *
+            </label>
             <div className="relative">
               <input
                 name="name"
@@ -115,7 +130,9 @@ const OnlineConsultationForm: React.FC = () => {
             </div>
           </div>
           <div className="space-y-2">
-            <label className="ml-1 text-[10px] font-bold uppercase tracking-[0.24em] text-sage-800">Phone Number *</label>
+            <label className="ml-1 text-xs sm:text-[10px] font-bold uppercase tracking-[0.24em] text-sage-800">
+              Phone Number *
+            </label>
             <input
               name="phone"
               value={formData.phone}
@@ -129,7 +146,9 @@ const OnlineConsultationForm: React.FC = () => {
 
         <div className="grid gap-6 md:grid-cols-2">
           <div className="space-y-2">
-            <label className="ml-1 text-[10px] font-bold uppercase tracking-[0.24em] text-sage-800">Email Address *</label>
+            <label className="ml-1 text-xs sm:text-[10px] font-bold uppercase tracking-[0.24em] text-sage-800">
+              Email Address *
+            </label>
             <input
               type="email"
               name="email"
@@ -141,7 +160,9 @@ const OnlineConsultationForm: React.FC = () => {
             />
           </div>
           <div className="space-y-2">
-            <label className="ml-1 text-[10px] font-bold uppercase tracking-[0.24em] text-sage-800">Age</label>
+            <label className="ml-1 text-xs sm:text-[10px] font-bold uppercase tracking-[0.24em] text-sage-800">
+              Age
+            </label>
             <input
               type="number"
               name="age"
@@ -155,7 +176,9 @@ const OnlineConsultationForm: React.FC = () => {
 
         <div className="grid gap-6 md:grid-cols-2 border-t border-sage-100 pt-6">
           <div className="space-y-2">
-            <label className="ml-1 text-[10px] font-bold uppercase tracking-[0.24em] text-sage-800">Consultation Type *</label>
+            <label className="ml-1 text-xs sm:text-[10px] font-bold uppercase tracking-[0.24em] text-sage-800">
+              Consultation Type *
+            </label>
             <select
               name="consultationType"
               value={formData.consultationType}
@@ -172,7 +195,9 @@ const OnlineConsultationForm: React.FC = () => {
             </select>
           </div>
           <div className="space-y-2">
-            <label className="ml-1 text-[10px] font-bold uppercase tracking-[0.24em] text-sage-800">Preferred Time</label>
+            <label className="ml-1 text-xs sm:text-[10px] font-bold uppercase tracking-[0.24em] text-sage-800">
+              Preferred Time
+            </label>
             <select
               name="preferredTime"
               value={formData.preferredTime}
@@ -191,7 +216,9 @@ const OnlineConsultationForm: React.FC = () => {
 
         <div className="grid gap-6 md:grid-cols-2">
           <div className="space-y-2">
-            <label className="ml-1 text-[10px] font-bold uppercase tracking-[0.24em] text-sage-800">Preferred Date</label>
+            <label className="ml-1 text-xs sm:text-[10px] font-bold uppercase tracking-[0.24em] text-sage-800">
+              Preferred Date
+            </label>
             <input
               type="date"
               name="preferredDate"
@@ -201,7 +228,9 @@ const OnlineConsultationForm: React.FC = () => {
             />
           </div>
           <div className="space-y-2">
-            <label className="ml-1 text-[10px] font-bold uppercase tracking-[0.24em] text-sage-800">Mode of Visit</label>
+            <label className="ml-1 text-xs sm:text-[10px] font-bold uppercase tracking-[0.24em] text-sage-800">
+              Mode of Visit
+            </label>
             <input
               name="mode"
               value={formData.mode}
@@ -213,7 +242,9 @@ const OnlineConsultationForm: React.FC = () => {
         </div>
 
         <div className="space-y-2">
-          <label className="ml-1 text-[10px] font-bold uppercase tracking-[0.24em] text-sage-800">Brief History & Concerns *</label>
+          <label className="ml-1 text-xs sm:text-[10px] font-bold uppercase tracking-[0.24em] text-sage-800">
+            Brief History & Concerns *
+          </label>
           <textarea
             name="message"
             value={formData.message}
@@ -226,26 +257,34 @@ const OnlineConsultationForm: React.FC = () => {
         </div>
 
         {submitStatus.type && (
-          <div className={`animate-fade-in rounded-2xl p-6 flex items-center gap-4 ${submitStatus.type === "success" ? "bg-sage-50 border border-sage-200 text-sage-800" : "bg-terracotta-50 border border-terracotta-100 text-terracotta-800"}`}>
-            <span className={`h-8 w-8 shrink-0 rounded-full flex items-center justify-center text-white font-bold ${submitStatus.type === "success" ? "bg-sage-500" : "bg-terracotta-500"}`}>
+          <div
+            className={`animate-fade-in rounded-2xl p-6 flex items-center gap-4 ${submitStatus.type === "success" ? "bg-sage-50 border border-sage-200 text-sage-800" : "bg-terracotta-50 border border-terracotta-100 text-terracotta-800"}`}
+          >
+            <span
+              className={`h-8 w-8 shrink-0 rounded-full flex items-center justify-center text-white font-bold ${submitStatus.type === "success" ? "bg-sage-500" : "bg-terracotta-500"}`}
+            >
               {submitStatus.type === "success" ? "✓" : "!"}
             </span>
-            <p className="text-sm font-semibold leading-relaxed">{submitStatus.message}</p>
+            <p className="text-sm font-semibold leading-relaxed">
+              {submitStatus.message}
+            </p>
           </div>
         )}
 
         <button
           type="submit"
           disabled={isSubmitting}
-          className="btn-premium w-full py-5 text-sm font-bold uppercase tracking-[0.2em] disabled:opacity-60 group relative overflow-hidden"
+          className="btn-premium w-full py-5 text-sm max-sm:text-base font-bold uppercase tracking-[0.2em] disabled:opacity-60 group relative overflow-hidden"
         >
           <span className="relative z-10">
-            {isSubmitting ? "Processing Request..." : "Confirm Consultation Inquiry"}
+            {isSubmitting
+              ? "Processing Request..."
+              : "Confirm Consultation Inquiry"}
           </span>
           <div className="absolute inset-0 bg-linear-to-r from-sage-800 to-sage-700 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
         </button>
 
-        <p className="text-center text-[10px] text-sage-600 font-bold uppercase tracking-widest">
+        <p className="text-center text-xs sm:text-[10px] text-sage-600 font-bold uppercase tracking-widest">
           Secure & Confidential Process
         </p>
       </form>
