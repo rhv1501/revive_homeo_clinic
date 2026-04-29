@@ -53,7 +53,7 @@ const processSteps = [
   },
   {
     title: "Expert Review",
-    text: "Connect via HD Video for a comprehensive constitutional analysis.",
+    text: "Connect via HD Video for a comprehensive personalised analysis.",
   },
   {
     title: "Curated Plan",
@@ -69,7 +69,7 @@ const OnlineConsultationPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <div className="relative z-10 space-y-6 sm:space-y-8 animate-slide-up">
-              <h1 className="text-[2.4rem] sm:text-5xl lg:text-7xl font-playfair font-bold text-sage-900 leading-[1.08] tracking-tight wrap-break-word">
+              <h1 className="text-[2.4rem] sm:text-5xl lg:text-7xl font-playfair font-bold text-sage-900 leading-[1.08] tracking-tight break-words">
                 Healing{" "}
                 <span className="italic text-terracotta-600">Simplified</span>.{" "}
                 <br />
@@ -130,7 +130,7 @@ const OnlineConsultationPage = () => {
                 />
               </div>
               {/* Floating element */}
-              <div className="absolute bottom-4 left-4 sm:-bottom-6 sm:-left-6 glass-card p-4 sm:p-6 max-w-45 sm:max-w-60 animate-float z-20">
+              <div className="absolute bottom-4 left-4 sm:-bottom-6 sm:-left-6 glass-card p-4 sm:p-6 max-w-[75vw] sm:max-w-60 animate-float z-20">
                 <div className="flex items-center gap-2 sm:gap-3 mb-2 sm:mb-3">
                   <div className="h-8 w-8 sm:h-10 sm:w-10 rounded-full bg-sage-100 flex items-center justify-center text-sm sm:text-base text-sage-600">
                     🌿
@@ -250,7 +250,7 @@ const OnlineConsultationPage = () => {
               </h3>
               <p className="text-sage-200 text-lg leading-relaxed mb-10 max-w-md">
                 Don't let distance define your quality of care. Our virtual
-                clinic is open, personal, and dedicated to your constitutional
+                clinic is open, personal, and dedicated to your personalised
                 wellness.
               </p>
 

@@ -65,7 +65,7 @@ const ContactPage = () => {
                 </h3>
                 <p className="text-lg text-sage-700 leading-relaxed max-w-xl font-medium">
                   For 17+ years, we have been Chennai&apos;s leading
-                  constitutional homeopathy clinic. We don&apos;t just suppress
+                  evidence-based homeopathic clinic. We don&apos;t just suppress
                   symptoms; we revitalize your body&apos;s vital force.
                 </p>
               </div>

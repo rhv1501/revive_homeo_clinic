@@ -49,8 +49,8 @@ const Footer: React.FC = () => {
               </span>
             </Link>
             <p className="text-sage-200/90 text-base leading-relaxed max-w-xs">
-              Natural healing through advanced constitutional homeopathy.
-              Dedicated to holistic care for chronic and acute conditions since
+              Natural healing through advanced personalised homeopathic medicine.
+              Treating both acute and chronic cases (from a common cold to cancer) since
               2007.
             </p>
             <div className="flex space-x-4">

@@ -65,7 +65,7 @@ const BlogCard: React.FC<BlogCardProps> = ({
              </div>
           </div>
           
-          <h3 className="text-2xl font-playfair font-bold text-sage-900 group-hover:text-terracotta-600 transition-colors leading-tight line-clamp-2">
+          <h3 className="text-2xl font-playfair font-bold text-sage-900 group-hover:text-terracotta-600 transition-colors leading-tight line-clamp-2 break-words">
             {title}
           </h3>
           
@@ -102,7 +102,7 @@ const BlogCard: React.FC<BlogCardProps> = ({
                 <span className={`px-4 py-1.5 ${categoryColor.bg} ${categoryColor.text} ${categoryColor.border} border text-[10px] font-bold rounded-xl tracking-widest uppercase`}>
                   {category}
                 </span>
-                <h2 className="text-3xl md:text-5xl font-playfair font-bold text-sage-900 leading-tight">
+                <h2 className="text-3xl md:text-5xl font-playfair font-bold text-sage-900 leading-tight break-words">
                   {title}
                 </h2>
               </div>

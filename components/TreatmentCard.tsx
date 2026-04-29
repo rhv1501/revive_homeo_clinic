@@ -40,15 +40,15 @@ const TreatmentCard: React.FC<TreatmentCardProps> = ({
           <div className="absolute inset-0 bg-linear-to-t from-sage-900/60 via-transparent to-transparent lg:bg-linear-to-r" />
           <div className="absolute bottom-6 left-6 lg:top-6 lg:left-6">
              <div className="px-4 py-1.5 bg-white/20 backdrop-blur-md rounded-full border border-white/20 text-[10px] font-bold text-white uppercase tracking-widest shadow-lg">
-                Constitutional Care
+                Personalised Care
              </div>
           </div>
         </div>
 
         {/* Content Side */}
-        <div className="p-8 lg:p-12 space-y-8">
+        <div className="p-5 sm:p-8 lg:p-12 space-y-8">
           <div className="space-y-4">
-            <h3 className="text-3xl lg:text-4xl font-playfair font-bold text-sage-900 tracking-tight">
+            <h3 className="text-3xl lg:text-4xl font-playfair font-bold text-sage-900 tracking-tight break-words">
               {category}
             </h3>
             <p className="text-base text-sage-600 leading-relaxed font-medium">

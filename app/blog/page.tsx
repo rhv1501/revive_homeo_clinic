@@ -12,7 +12,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Health & Wellness Blog | Natural Healing Insights",
   description:
-    "Explore our archive of health and wellness articles. Dr. Nritiya Dave shares expert insights on chronic disease management, natural immunity, and constitutional homeopathy.",
+    "Explore our archive of health and wellness articles. Dr. Nritiya Dave shares expert insights on chronic disease management, natural immunity, and evidence-based homeopathic treatments.",
   keywords: generateKeywords(BASE_KEYWORDS, [
     ...PAGE_KEYWORDS.blog,
     "homeopathy health tips",

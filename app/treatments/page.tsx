@@ -38,13 +38,13 @@ const TreatmentsPage = () => {
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-          <h1 className="text-4xl md:text-7xl lg:text-8xl font-playfair font-bold text-sage-900 leading-[1.1] tracking-tight mb-8 animate-slide-up [animation-delay:200ms]">
+          <h1 className="text-4xl md:text-7xl lg:text-8xl font-playfair font-bold text-sage-900 leading-[1.1] tracking-tight mb-8 animate-slide-up [animation-delay:200ms] break-words">
             Healing for Every <br />
             <span className="italic text-terracotta-600">Vital System.</span>
           </h1>
 
           <p className="max-w-2xl mx-auto text-lg md:text-xl text-sage-700 leading-relaxed animate-slide-up [animation-delay:400ms]">
-             Comprehensive constitutional care designed for profound, long-term healing. 
+             Comprehensive personalised care designed for profound, long-term healing. 
              Explore our full therapeutic range below.
           </p>
         </div>
@@ -55,7 +55,7 @@ const TreatmentsPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="glass-card p-8 md:p-12 border-sage-100 shadow-xl rounded-[3rem]">
             <p className="text-[10px] font-bold uppercase tracking-[0.3em] text-sage-600 mb-8 text-center">Quick Access Hub</p>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 sm:gap-4 font-bold">
+            <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 sm:gap-4 font-bold">
               {servicesData.services.map((service, idx) => (
                 <a
                   key={idx}
@@ -76,7 +76,7 @@ const TreatmentsPage = () => {
           
           <div className="mb-20 space-y-4">
              <h2 className="section-kicker">Clinical Catalog</h2>
-             <h3 className="section-heading tracking-tight leading-tight">Expert Homeopathic <br/>Inquiry Hub.</h3>
+             <h3 className="section-heading tracking-tight leading-tight break-words">Expert Homeopathic <br/>Inquiry Hub.</h3>
           </div>
 
           {/* All 15 Cards with IDs for Anchoring */}
@@ -117,13 +117,13 @@ const TreatmentsPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="relative rounded-[4rem] bg-cream-50/50 border border-sage-100 p-12 md:p-24 text-center overflow-hidden shadow-sm">
             <div className="relative z-10 space-y-10 max-w-3xl mx-auto">
-               <h3 className="text-3xl md:text-7xl font-playfair font-bold text-sage-900 tracking-tight leading-tight">
+               <h3 className="text-3xl md:text-7xl font-playfair font-bold text-sage-900 tracking-tight leading-tight break-words">
                  Find clarity in <br />
                  <span className="italic text-terracotta-600">natural healing.</span>
                </h3>
                <p className="text-lg text-sage-600 leading-relaxed font-medium">
                   Select a category above or book a primary session to let Dr. Dave 
-                  personally map your constitutional therapy.
+                  personally map your evidence-based treatment.
                </p>
                <div className="pt-4 flex flex-col sm:flex-row gap-4 justify-center">
                   <Link href="/contact" className="btn-premium px-12 py-5 text-base shadow-xl">

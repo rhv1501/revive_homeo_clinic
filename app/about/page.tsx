@@ -19,13 +19,13 @@ const AboutPage = () => {
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-          <h1 className="text-4xl md:text-7xl lg:text-8xl font-playfair font-bold text-sage-900 leading-[1.1] tracking-tight mb-8 animate-slide-up [animation-delay:200ms]">
+          <h1 className="text-4xl md:text-7xl lg:text-8xl font-playfair font-bold text-sage-900 leading-[1.1] tracking-tight mb-8 animate-slide-up [animation-delay:200ms] break-words">
             Where Heritage <br />
             <span className="italic text-terracotta-600">Meets Modern Care.</span>
           </h1>
 
           <p className="max-w-3xl mx-auto text-lg md:text-xl text-sage-700 leading-relaxed animate-slide-up [animation-delay:400ms]">
-            Since 2007, Revivee Homeo Clinic has been dedicated to restoring health through constitutional homeopathy, 
+            Since 2007, Revivee Homeo Clinic has been dedicated to restoring health through evidence-based homeopathic treatments. We treat both acute and chronic cases, from a common cold to cancer,
             guided by a clinical lineage that spans over four decades.
           </p>
         </div>
@@ -56,7 +56,7 @@ const AboutPage = () => {
             <div className="space-y-8">
               <div className="space-y-4">
                 <h2 className="section-kicker">Our Heritage</h2>
-                <h3 className="section-heading tracking-tight leading-tight">
+                <h3 className="section-heading tracking-tight leading-tight break-words">
                   A Legacy of <br />
                   <span className="italic text-terracotta-600">Generational Expertise.</span>
                 </h3>
@@ -74,7 +74,7 @@ const AboutPage = () => {
                 </p>
               </div>
 
-              <div className="grid grid-cols-2 gap-8 pt-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 pt-4">
                 <div>
                   <p className="text-3xl font-bold text-sage-900 mb-1">17+</p>
                   <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-sage-600">Years Clinical Exp.</p>
@@ -150,7 +150,7 @@ const AboutPage = () => {
             </div>
             
             <div className="relative z-10 space-y-8 max-w-3xl mx-auto">
-               <h3 className="text-3xl md:text-5xl lg:text-7xl font-playfair font-bold text-white tracking-tight leading-tight">
+               <h3 className="text-3xl md:text-5xl lg:text-7xl font-playfair font-bold text-white tracking-tight leading-tight break-words">
                  Continuing local healing, <br />
                  <span className="italic text-terracotta-400">worldwide impact.</span>
                </h3>

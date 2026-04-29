@@ -39,12 +39,12 @@ const Navbar: React.FC = () => {
           : "py-4 bg-linear-to-b from-white/85 via-white/65 to-transparent"
       }`}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
         <div
           className={`flex justify-between items-center rounded-2xl transition-all duration-500 ${
             isScrolled
-              ? "bg-white px-3 py-2"
-              : "bg-white/72 px-3 py-2 shadow-[0_6px_18px_rgba(24,34,21,0.06)]"
+              ? "bg-white px-2 sm:px-3 py-2"
+              : "bg-white/72 px-2 sm:px-3 py-2 shadow-[0_6px_18px_rgba(24,34,21,0.06)]"
           }`}
         >
           <Link href="/" className="flex items-center space-x-3 group">

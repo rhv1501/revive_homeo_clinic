@@ -45,7 +45,7 @@ export default function Home() {
       keyword: "Best Skin Care Homeopathy",
       image: skinFocus,
       link: `/contact?interest=${encodeURIComponent("Skin & Psoriasis")}`,
-      desc: "Revolutionary constitutional treatment for chronic Psoriasis, Eczema, and Acne.",
+      desc: "Revolutionary personalised treatment for acute and chronic Psoriasis, Eczema, and Acne.",
     },
     {
       title: "Women's Health & PCOS",
@@ -91,8 +91,8 @@ export default function Home() {
                   conditions.
                 </h3>
                 <p className="section-lead max-w-xl text-sage-800">
-                  We specialize in constitutional treatment for conditions where
-                  conventional medicine often only manages symptoms.
+                  We specialize in individualised homeopathic medicines for conditions where
+                  conventional medicine often only manages symptoms, treating both acute and chronic cases, from a common cold to cancer.
                 </p>
 
                 <div className="flex flex-col gap-3 sm:flex-row">

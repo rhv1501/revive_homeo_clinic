@@ -12,7 +12,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Success Stories & Patient Testimonials | Healing Journeys",
   description:
-    "Read real success stories from patients who found lasting relief at Revivee Homeo Clinic. From psoriasis to chronic pain, discover how constitutional homeopathy changes lives.",
+    "Read real success stories from patients who found lasting relief at Revivee Homeo Clinic. From psoriasis to chronic pain, discover how personalised homeopathic medicine changes lives.",
   keywords: generateKeywords(BASE_KEYWORDS, [
     ...PAGE_KEYWORDS.testimonials,
     "patient reviews homeopathy chennai",
@@ -29,14 +29,14 @@ const TestimonialsPage = () => {
         <div className="absolute inset-0 bg-sage-50/30 opacity-40" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center space-y-8 animate-fade-in">
           <h2 className="section-kicker">Voices of Healing</h2>
-          <h1 className="section-heading-lg">
+          <h1 className="section-heading-lg break-words">
             Real Stories,{" "}
             <span className="text-terracotta-600 italic">Remarkable</span>{" "}
             Results.
           </h1>
           <p className="section-lead max-w-3xl mx-auto">
             Every patient at Revive has a unique story. Explore the journeys of
-            those who chose a natural, constitutional path to wellness.
+            those who chose a natural, individualised path to wellness.
           </p>
 
           {/* Premium Google Trust Card */}
@@ -125,7 +125,7 @@ const TestimonialsPage = () => {
                     {testimonial.name.charAt(0)}
                   </div>
                   <div>
-                    <h4 className="font-bold text-sage-900 leading-none">
+                    <h4 className="font-bold text-sage-900 leading-none break-words">
                       {testimonial.name}
                     </h4>
                     <p className="text-xs font-bold text-terracotta-600 mt-1">

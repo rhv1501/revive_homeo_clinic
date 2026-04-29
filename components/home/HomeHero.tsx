@@ -16,18 +16,16 @@ const HomeHero: React.FC = () => {
         <div className="absolute right-[-5%] top-[10%] h-150 w-150 rounded-full bg-terracotta-50/80 blur-[140px]" />
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="relative z-10 max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-18 items-center">
           <div className="space-y-5 md:space-y-8 animate-slide-up">
-            <h1 className="text-[2.45rem] sm:text-6xl lg:text-7xl xl:text-8xl font-playfair font-bold leading-[1.06] sm:leading-[1.03] tracking-tight text-sage-900">
-              Clinical homeopathy for
-              <span className="italic text-terracotta-600"> chronic care.</span>
+            <h1 className="text-[2.45rem] sm:text-6xl lg:text-7xl xl:text-8xl font-playfair font-bold leading-[1.06] sm:leading-[1.03] tracking-tight text-sage-900 break-words">
+              Personalised medicine for
+              <span className="italic text-terracotta-600"> acute and chronic complaints.</span>
             </h1>
 
             <p className="max-w-xl text-[1.12rem] sm:text-lg md:text-xl leading-relaxed text-sage-700 font-medium">
-              Consult Dr. Nritiya Dave for chronic, hormonal, skin, and
-              pediatric conditions with structured case assessment, personalized
-              prescriptions, and monitored follow-up.
+              Evidence-based homeopathic treatments for everything from a common cold to complex cases like cancer, with structured case assessment, personalised prescriptions, and monitored follow-up.
             </p>
 
             <div className="grid grid-cols-1 sm:flex gap-3 sm:gap-4 pt-1">
@@ -62,7 +60,7 @@ const HomeHero: React.FC = () => {
               guided treatment. Trusted clinical care since 2007.
             </p>
 
-            <div className="grid grid-cols-3 gap-3 sm:gap-4 pt-4 sm:pt-6 border-t border-sage-200/70">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 pt-4 sm:pt-6 border-t border-sage-200/70">
               <div className="rounded-2xl bg-white/85 border border-sage-100 px-4 py-3 text-center">
                 <p className="text-2xl sm:text-3xl font-playfair font-bold text-sage-900">
                   17+

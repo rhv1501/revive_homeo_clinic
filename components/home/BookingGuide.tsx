@@ -14,7 +14,7 @@ const BookingGuide = () => {
       {
         id: "02",
         title: "In-Depth Case Study",
-        desc: "Meet Dr. Nritiya Dave for a comprehensive constitutional analysis.",
+        desc: "Meet Dr. Nritiya Dave for a comprehensive personalised analysis.",
       },
       {
         id: "03",
@@ -77,13 +77,13 @@ const BookingGuide = () => {
             <div className="space-y-8 pl-4 border-l-2 border-sage-200">
               {steps.clinic.map((step) => (
                 <div key={step.id} className="relative pl-12 group/step">
-                  <span className="absolute left-[-2.1rem] top-0 text-5xl font-playfair font-black text-sage-100 transition-colors group-hover/step:text-terracotta-100 selection:bg-transparent">
+                  <span className="absolute left-[-2.1rem] top-0 text-5xl font-playfair font-black text-sage-100 transition-colors group-hover/step:text-terracotta-100 selection:bg-transparent z-0">
                     {step.id}
                   </span>
-                  <h5 className="text-xl font-bold text-sage-900 mb-2">
+                  <h5 className="text-xl font-bold text-sage-900 mb-2 relative z-10">
                     {step.title}
                   </h5>
-                  <p className="text-sage-600 leading-relaxed text-sm max-w-md">
+                  <p className="text-sage-600 leading-relaxed text-sm max-w-md relative z-10">
                     {step.desc}
                   </p>
                 </div>
@@ -124,13 +124,13 @@ const BookingGuide = () => {
             <div className="space-y-8 pl-4 border-l-2 border-terracotta-200">
               {steps.online.map((step) => (
                 <div key={step.id} className="relative pl-12 group/step">
-                  <span className="absolute left-[-2.1rem] top-0 text-5xl font-playfair font-black text-terracotta-50 transition-colors group-hover/step:text-sage-100 selection:bg-transparent">
+                  <span className="absolute left-[-2.1rem] top-0 text-5xl font-playfair font-black text-terracotta-50 transition-colors group-hover/step:text-sage-100 selection:bg-transparent z-0">
                     {step.id}
                   </span>
-                  <h5 className="text-xl font-bold text-sage-900 mb-2">
+                  <h5 className="text-xl font-bold text-sage-900 mb-2 relative z-10">
                     {step.title}
                   </h5>
-                  <p className="text-sage-600 leading-relaxed text-sm max-w-md">
+                  <p className="text-sage-600 leading-relaxed text-sm max-w-md relative z-10">
                     {step.desc}
                   </p>
                 </div>

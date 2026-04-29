@@ -136,7 +136,7 @@ export default function RootLayout({
         <ScrollToTop />
         <div className="flex flex-col min-h-screen">
           <Navbar />
-          <main className="grow page-main">{children}</main>
+          <main className="grow page-main pb-28 sm:pb-0">{children}</main>
           <Footer />
           <FloatingActionButton />
         </div>
